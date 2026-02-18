@@ -8827,7 +8827,7 @@
               "dependencies": [
                 {
                   "name": "chromadb",
-                  "version": "1.4.1"
+                  "version": null
                 },
                 {
                   "name": "langchain_chroma",
@@ -69149,7 +69149,7 @@
                 },
                 {
                   "name": "fastapi",
-                  "version": "0.128.1"
+                  "version": "1.4.1"
                 },
                 {
                   "name": "lfx",
@@ -72392,7 +72392,7 @@
               "dependencies": [
                 {
                   "name": "google",
-                  "version": "1.16.0"
+                  "version": "1.72.0"
                 },
                 {
                   "name": "lfx",
@@ -72540,7 +72540,7 @@
               "dependencies": [
                 {
                   "name": "google",
-                  "version": "1.16.0"
+                  "version": "1.72.0"
                 },
                 {
                   "name": "googleapiclient",
@@ -72701,7 +72701,7 @@
               "dependencies": [
                 {
                   "name": "google",
-                  "version": "1.16.0"
+                  "version": "1.72.0"
                 },
                 {
                   "name": "langchain_core",
@@ -72830,7 +72830,7 @@
               "dependencies": [
                 {
                   "name": "google",
-                  "version": "1.16.0"
+                  "version": "1.72.0"
                 },
                 {
                   "name": "langchain_google_community",
@@ -72959,7 +72959,7 @@
               "dependencies": [
                 {
                   "name": "google",
-                  "version": "1.16.0"
+                  "version": "1.72.0"
                 },
                 {
                   "name": "googleapiclient",
@@ -73249,7 +73249,7 @@
                 },
                 {
                   "name": "google",
-                  "version": "1.16.0"
+                  "version": "1.72.0"
                 },
                 {
                   "name": "langchain_google_genai",
@@ -73613,7 +73613,7 @@
               "dependencies": [
                 {
                   "name": "google",
-                  "version": "1.16.0"
+                  "version": "1.72.0"
                 },
                 {
                   "name": "google_auth_oauthlib",
@@ -76695,7 +76695,7 @@
                 },
                 {
                   "name": "fastapi",
-                  "version": "0.128.1"
+                  "version": "1.4.1"
                 },
                 {
                   "name": "lfx",
@@ -92971,95 +92971,7 @@
               "external_options": {},
               "info": "The name of the NVIDIA model to use.",
               "name": "model_name",
-              "options": [
-                "01-ai/yi-large",
-                "abacusai/dracarys-llama-3.1-70b-instruct",
-                "adept/fuyu-8b",
-                "ai21labs/jamba-1.5-large-instruct",
-                "ai21labs/jamba-1.5-mini-instruct",
-                "aisingapore/sea-lion-7b-instruct",
-                "baichuan-inc/baichuan2-13b-chat",
-                "databricks/dbrx-instruct",
-                "deepseek-ai/deepseek-coder-6.7b-instruct",
-                "google/codegemma-1.1-7b",
-                "google/codegemma-7b",
-                "google/deplot",
-                "google/gemma-2-27b-it",
-                "google/gemma-2-2b-it",
-                "google/gemma-2-9b-it",
-                "google/gemma-2b",
-                "google/gemma-7b",
-                "google/paligemma",
-                "google/recurrentgemma-2b",
-                "ibm/granite-3.0-3b-a800m-instruct",
-                "ibm/granite-3.0-8b-instruct",
-                "ibm/granite-34b-code-instruct",
-                "ibm/granite-8b-code-instruct",
-                "institute-of-science-tokyo/llama-3.1-swallow-70b-instruct-v0.1",
-                "institute-of-science-tokyo/llama-3.1-swallow-8b-instruct-v0.1",
-                "mediatek/breeze-7b-instruct",
-                "meta/codellama-70b",
-                "meta/llama-3.1-405b-instruct",
-                "meta/llama-3.1-70b-instruct",
-                "meta/llama-3.1-8b-instruct",
-                "meta/llama-3.2-11b-vision-instruct",
-                "meta/llama-3.2-1b-instruct",
-                "meta/llama-3.2-3b-instruct",
-                "meta/llama-3.2-90b-vision-instruct",
-                "meta/llama-3.3-70b-instruct",
-                "meta/llama2-70b",
-                "meta/llama3-70b-instruct",
-                "meta/llama3-8b-instruct",
-                "microsoft/kosmos-2",
-                "microsoft/phi-3-medium-128k-instruct",
-                "microsoft/phi-3-medium-4k-instruct",
-                "microsoft/phi-3-mini-128k-instruct",
-                "microsoft/phi-3-mini-4k-instruct",
-                "microsoft/phi-3-small-128k-instruct",
-                "microsoft/phi-3-small-8k-instruct",
-                "microsoft/phi-3-vision-128k-instruct",
-                "microsoft/phi-3.5-mini-instruct",
-                "microsoft/phi-3.5-moe-instruct",
-                "microsoft/phi-3.5-vision-instruct",
-                "mistralai/codestral-22b-instruct-v0.1",
-                "mistralai/mamba-codestral-7b-v0.1",
-                "mistralai/mathstral-7b-v0.1",
-                "mistralai/mistral-7b-instruct-v0.2",
-                "mistralai/mistral-7b-instruct-v0.3",
-                "mistralai/mistral-large",
-                "mistralai/mistral-large-2-instruct",
-                "mistralai/mixtral-8x22b-instruct-v0.1",
-                "mistralai/mixtral-8x7b-instruct-v0.1",
-                "nv-mistralai/mistral-nemo-12b-instruct",
-                "nvidia/llama-3.1-nemotron-51b-instruct",
-                "nvidia/llama-3.1-nemotron-70b-instruct",
-                "nvidia/llama-3.1-nemotron-70b-reward",
-                "nvidia/llama3-chatqa-1.5-70b",
-                "nvidia/llama3-chatqa-1.5-8b",
-                "nvidia/mistral-nemo-minitron-8b-8k-instruct",
-                "nvidia/nemotron-4-340b-instruct",
-                "nvidia/nemotron-4-mini-hindi-4b-instruct",
-                "nvidia/nemotron-mini-4b-instruct",
-                "nvidia/neva-22b",
-                "nvidia/usdcode-llama-3.1-70b-instruct",
-                "nvidia/usdcode-llama3-70b-instruct",
-                "nvidia/vila",
-                "qwen/qwen2-7b-instruct",
-                "qwen/qwen2.5-coder-32b-instruct",
-                "qwen/qwen2.5-coder-7b-instruct",
-                "rakuten/rakutenai-7b-chat",
-                "rakuten/rakutenai-7b-instruct",
-                "seallms/seallm-7b-v2.5",
-                "snowflake/arctic",
-                "thudm/chatglm3-6b",
-                "tokyotech-llm/llama-3-swallow-70b-instruct-v0.1",
-                "upstage/solar-10.7b-instruct",
-                "writer/palmyra-fin-70b-32k",
-                "writer/palmyra-med-70b",
-                "writer/palmyra-med-70b-32k",
-                "yentinglin/llama-3-taiwan-70b-instruct",
-                "zyphra/zamba2-7b-instruct"
-              ],
+              "options": [],
               "options_metadata": [],
               "override_skip": false,
               "placeholder": "",
@@ -94076,7 +93988,7 @@
                 },
                 {
                   "name": "gassist",
-                  "version": null
+                  "version": "0.0.1"
                 }
               ],
               "total_dependencies": 2
@@ -96385,6 +96297,888 @@
       }
     ],
     [
+      "opendataloader_pdf",
+      {
+        "OpenDataLoaderPDF": {
+          "base_classes": [
+            "DataFrame",
+            "Message"
+          ],
+          "beta": false,
+          "conditional_paths": [],
+          "custom_fields": {},
+          "description": "Convert PDFs into LLM-ready formats using OpenDataLoader PDF. Fast, local, rule-based extraction with correct reading order and table detection. Requires Java 11 or later.",
+          "display_name": "OpenDataLoader PDF",
+          "documentation": "https://opendataloader.org/",
+          "edited": false,
+          "field_order": [
+            "path",
+            "file_path",
+            "separator",
+            "silent_errors",
+            "delete_server_file_after_processing",
+            "ignore_unsupported_extensions",
+            "ignore_unspecified_files",
+            "file_path_str",
+            "format",
+            "quiet",
+            "content_safety",
+            "content_safety_filters",
+            "image_output",
+            "image_format",
+            "use_struct_tree",
+            "password",
+            "pages",
+            "replace_invalid_chars",
+            "keep_line_breaks",
+            "include_header_footer",
+            "table_method",
+            "reading_order",
+            "text_page_separator",
+            "markdown_page_separator",
+            "html_page_separator",
+            "hybrid",
+            "hybrid_mode",
+            "hybrid_url",
+            "hybrid_timeout",
+            "hybrid_fallback",
+            "image_dir",
+            "output_dir"
+          ],
+          "frozen": false,
+          "icon": "OpenDataLoaderPDF",
+          "legacy": false,
+          "metadata": {
+            "code_hash": "5898cea0db3b",
+            "dependencies": {
+              "dependencies": [
+                {
+                  "name": "lfx",
+                  "version": null
+                },
+                {
+                  "name": "langchain_core",
+                  "version": "0.3.83"
+                },
+                {
+                  "name": "pydantic",
+                  "version": "2.11.10"
+                },
+                {
+                  "name": "opendataloader_pdf",
+                  "version": "1.10.1"
+                }
+              ],
+              "total_dependencies": 4
+            },
+            "module": "lfx.components.opendataloader_pdf.opendataloader_pdf.OpenDataLoaderPDFComponent"
+          },
+          "minimized": false,
+          "output_types": [],
+          "outputs": [
+            {
+              "allows_loop": false,
+              "cache": true,
+              "display_name": "Files",
+              "group_outputs": false,
+              "method": "load_files",
+              "name": "dataframe",
+              "selected": "DataFrame",
+              "tool_mode": true,
+              "types": [
+                "DataFrame"
+              ],
+              "value": "__UNDEFINED__"
+            },
+            {
+              "allows_loop": false,
+              "cache": true,
+              "display_name": "Pages",
+              "group_outputs": false,
+              "method": "load_files_by_page",
+              "name": "page_data",
+              "selected": "DataFrame",
+              "tool_mode": true,
+              "types": [
+                "DataFrame"
+              ],
+              "value": "__UNDEFINED__"
+            },
+            {
+              "allows_loop": false,
+              "cache": true,
+              "display_name": "Text",
+              "group_outputs": false,
+              "method": "load_files_message",
+              "name": "text",
+              "selected": "Message",
+              "tool_mode": true,
+              "types": [
+                "Message"
+              ],
+              "value": "__UNDEFINED__"
+            }
+          ],
+          "pinned": false,
+          "template": {
+            "_type": "Component",
+            "code": {
+              "advanced": true,
+              "dynamic": true,
+              "fileTypes": [],
+              "file_path": "",
+              "info": "",
+              "list": false,
+              "load_from_db": false,
+              "multiline": true,
+              "name": "code",
+              "password": false,
+              "placeholder": "",
+              "required": true,
+              "show": true,
+              "title_case": false,
+              "type": "code",
+              "value": "import contextlib\nimport json\nimport re\nimport shutil\nimport subprocess\nimport tempfile\nimport threading\nfrom collections import defaultdict\nfrom copy import deepcopy\nfrom pathlib import Path\n\nfrom lfx.base.data import BaseFileComponent\nfrom lfx.inputs import (\n    BoolInput,\n    DropdownInput,\n    IntInput,\n    MultilineInput,\n    SecretStrInput,\n    StrInput,\n)\nfrom lfx.io import FileInput, Output\nfrom lfx.schema import Data\nfrom lfx.schema.dataframe import DataFrame\nfrom lfx.schema.message import Message\n\n# Sentinel pattern for page-level splitting in text/markdown/html formats.\n# The %page-number% placeholder is replaced by opendataloader-pdf with the actual page number.\n_PAGE_SENTINEL_TEMPLATE = \"\\n---ODL_PAGE_BREAK_%page-number%---\\n\"\n_PAGE_SENTINEL_PATTERN = re.compile(r\"---ODL_PAGE_BREAK_(\\d+)---\")\n\n# Mapping from output format to the corresponding page separator parameter name.\n_FORMAT_TO_SEPARATOR_KEY = {\n    \"text\": \"text_page_separator\",\n    \"markdown\": \"markdown_page_separator\",\n    \"markdown-with-html\": \"markdown_page_separator\",\n    \"markdown-with-images\": \"markdown_page_separator\",\n    \"html\": \"html_page_separator\",\n}\n\n\nclass OpenDataLoaderPDFComponent(BaseFileComponent):\n    \"\"\"OpenDataLoader PDF component for processing PDF files.\n\n    Uses OpenDataLoader PDF to convert PDFs into structured formats\n    (JSON, Markdown, HTML, Text) for RAG and LLM pipelines.\n\n    Outputs:\n        - Files (DataFrame): One row per PDF file — for data analysis.\n        - Pages (DataFrame): One row per page with ``page_number`` metadata — for RAG with citations.\n        - Text (Message): Concatenated text of all files — for simple chatbot prompts.\n        - Toolset (auto): Agent tools ``read_pdf`` and ``read_pdf_page``.\n    \"\"\"\n\n    display_name = \"OpenDataLoader PDF\"\n    # description is now a dynamic property - see get_tool_description()\n    _base_description = (\n        \"Convert PDFs into LLM-ready formats using OpenDataLoader PDF. \"\n        \"Fast, local, rule-based extraction with correct reading order and table detection. \"\n        \"Requires Java 11 or later.\"\n    )\n    documentation = \"https://opendataloader.org/\"\n    trace_type = \"tool\"\n    icon = \"OpenDataLoaderPDF\"\n    name = \"OpenDataLoaderPDF\"\n    add_tool_output = True\n\n    VALID_EXTENSIONS = [\"pdf\"]\n\n    _base_inputs = deepcopy(BaseFileComponent.get_base_inputs())\n    for _inp in _base_inputs:\n        if isinstance(_inp, FileInput) and _inp.name == \"path\":\n            _inp.tool_mode = False\n            _inp.required = False\n            break\n    del _inp  # Prevent loop variable from leaking into class namespace\n\n    inputs = [\n        *_base_inputs,\n        StrInput(\n            name=\"file_path_str\",\n            display_name=\"File Path\",\n            info=\"Used internally for tool mode activation.\",\n            show=False,\n            advanced=True,\n            tool_mode=True,  # Required for Toolset toggle, but _get_tools() ignores this parameter\n            required=False,\n        ),\n        DropdownInput(\n            name=\"format\",\n            display_name=\"Output Format\",\n            info=\"The output format for the converted PDF content.\",\n            options=[\n                \"json\",\n                \"text\",\n                \"markdown\",\n                \"markdown-with-html\",\n                \"markdown-with-images\",\n                \"html\",\n                \"pdf\",\n            ],\n            value=\"json\",\n        ),\n        BoolInput(\n            name=\"quiet\",\n            display_name=\"Quiet Mode\",\n            info=\"Suppress CLI logging output when enabled.\",\n            value=True,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"content_safety\",\n            display_name=\"Content Safety\",\n            info=(\n                \"AI safety filters to protect against prompt injection. \"\n                \"Enabled by default to filter hidden text, off-page content, and tiny text.\"\n            ),\n            options=[\"enabled\", \"disabled\"],\n            value=\"enabled\",\n            advanced=True,\n        ),\n        MultilineInput(\n            name=\"content_safety_filters\",\n            display_name=\"Disabled Safety Filters\",\n            info=(\n                \"Comma-separated list of safety filters to disable when Content Safety is 'disabled'. \"\n                \"Options: all, hidden-text, off-page, tiny, hidden-ocg\"\n            ),\n            value=\"all\",\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"image_output\",\n            display_name=\"Image Output\",\n            info=(\n                \"How to handle images in the PDF. \"\n                \"'off' excludes images, 'embedded' includes Base64 in output, \"\n                \"'external' saves images as separate files.\"\n            ),\n            options=[\"external\", \"embedded\", \"off\"],\n            value=\"external\",\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"image_format\",\n            display_name=\"Image Format\",\n            info=\"Output format for extracted images.\",\n            options=[\"png\", \"jpeg\"],\n            value=\"png\",\n            advanced=True,\n        ),\n        BoolInput(\n            name=\"use_struct_tree\",\n            display_name=\"Use Tagged PDF Structure\",\n            info=(\n                \"Use native PDF structure tags when available. \"\n                \"Improves accuracy for accessible PDFs with semantic markup.\"\n            ),\n            value=True,\n            advanced=True,\n        ),\n        SecretStrInput(\n            name=\"password\",\n            display_name=\"PDF Password\",\n            info=\"Password for encrypted PDF files.\",\n            value=\"\",\n            advanced=True,\n        ),\n        StrInput(\n            name=\"pages\",\n            display_name=\"Pages\",\n            info=\"Pages to extract (e.g., '1,3,5-7'). Leave empty for all pages.\",\n            value=\"\",\n            advanced=True,\n        ),\n        StrInput(\n            name=\"replace_invalid_chars\",\n            display_name=\"Replace Invalid Characters\",\n            info=\"Replacement character for invalid or unrecognized characters in extracted text. Default is a space.\",\n            value=\" \",\n            advanced=True,\n        ),\n        BoolInput(\n            name=\"keep_line_breaks\",\n            display_name=\"Keep Line Breaks\",\n            info=\"Preserve original line breaks in extracted text.\",\n            value=False,\n            advanced=True,\n        ),\n        BoolInput(\n            name=\"include_header_footer\",\n            display_name=\"Include Header/Footer\",\n            info=\"Include page headers and footers in output.\",\n            value=False,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"table_method\",\n            display_name=\"Table Detection Method\",\n            info=\"Method for detecting tables. 'cluster' may improve accuracy for borderless tables.\",\n            options=[\"default\", \"cluster\"],\n            value=\"default\",\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"reading_order\",\n            display_name=\"Reading Order\",\n            info=\"Algorithm for determining reading order. 'xycut' handles multi-column layouts.\",\n            options=[\"xycut\", \"off\"],\n            value=\"xycut\",\n            advanced=True,\n        ),\n        StrInput(\n            name=\"text_page_separator\",\n            display_name=\"Text Page Separator\",\n            info=\"Separator between pages in text output. Use %page-number% for page numbers.\",\n            value=\"\",\n            advanced=True,\n        ),\n        StrInput(\n            name=\"markdown_page_separator\",\n            display_name=\"Markdown Page Separator\",\n            info=\"Separator between pages in Markdown output. Use %page-number% for page numbers.\",\n            value=\"\",\n            advanced=True,\n        ),\n        StrInput(\n            name=\"html_page_separator\",\n            display_name=\"HTML Page Separator\",\n            info=\"Separator between pages in HTML output. Use %page-number% for page numbers.\",\n            value=\"\",\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"hybrid\",\n            display_name=\"Hybrid Mode\",\n            info=\"Use AI backend for complex pages. 'docling-fast' routes challenging pages to AI processing.\",\n            options=[\"off\", \"docling-fast\"],\n            value=\"off\",\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"hybrid_mode\",\n            display_name=\"Hybrid Triage Mode\",\n            info=\"How to decide which pages go to AI backend. 'auto' uses dynamic triage, 'full' sends all pages.\",\n            options=[\"auto\", \"full\"],\n            value=\"auto\",\n            advanced=True,\n        ),\n        StrInput(\n            name=\"hybrid_url\",\n            display_name=\"Hybrid Backend URL\",\n            info=\"Custom URL for hybrid backend server. Leave empty to use the library default (http://localhost:5002).\",\n            value=\"\",\n            advanced=True,\n        ),\n        IntInput(\n            name=\"hybrid_timeout\",\n            display_name=\"Hybrid Timeout (ms)\",\n            info=\"Timeout for hybrid backend requests in milliseconds.\",\n            value=30000,\n            advanced=True,\n        ),\n        BoolInput(\n            name=\"hybrid_fallback\",\n            display_name=\"Hybrid Fallback\",\n            info=(\n                \"Fall back to local processing if hybrid backend fails. \"\n                \"When enabled, connection failures are handled silently and processing continues locally.\"\n            ),\n            value=True,\n            advanced=True,\n        ),\n        StrInput(\n            name=\"output_dir\",\n            display_name=\"Output Directory\",\n            info=(\n                \"Directory to save converted files. Leave empty to use a temporary directory (files are not persisted).\"\n            ),\n            value=\"\",\n            advanced=True,\n        ),\n    ]\n\n    outputs = [\n        *BaseFileComponent.get_base_outputs(),\n        Output(display_name=\"Pages\", name=\"page_data\", method=\"load_files_by_page\"),\n        Output(display_name=\"Text\", name=\"text\", method=\"load_files_message\"),\n    ]\n\n    def __init__(self, *args, **kwargs):\n        super().__init__(*args, **kwargs)\n        # Instance-level cache so that multiple outputs (Files, Pages, Text, Tool)\n        # do not trigger redundant PDF conversions.\n        self._cached_data: list[Data] | None = None\n        self._cached_page_data: list[Data] | None = None\n        self._cache_lock = threading.RLock()\n\n    # ------------------------------ Caching -----------------------------------------\n\n    def _get_cached_data(self) -> list[Data]:\n        \"\"\"Return cached conversion results, running ``load_files_base()`` on first call.\n\n        Multiple outputs (Files, Pages, Text, Tool) share the same converted data\n        to avoid redundant PDF processing.  A lock ensures thread-safety when\n        multiple outputs are resolved concurrently.\n        \"\"\"\n        with self._cache_lock:\n            if self._cached_data is None:\n                self._cached_data = self.load_files_base()\n            return self._cached_data\n\n    def _get_cached_page_data(self) -> list[Data]:\n        \"\"\"Return cached page-level data, parsing on first call.\n\n        Avoids redundant ``_parse_pages_from_data`` calls when multiple\n        consumers (Pages output, ``read_pdf_page`` tool) need page data.\n        \"\"\"\n        with self._cache_lock:\n            if self._cached_page_data is None:\n                self._cached_page_data = self._parse_pages_from_data(self._get_cached_data())\n            return self._cached_page_data\n\n    # ------------------------------ Page-level parsing ----------------------------\n\n    def _parse_pages_from_data(self, data_list: list[Data]) -> list[Data]:\n        \"\"\"Split file-level Data objects into page-level Data objects.\n\n        For JSON format: parses the ``kids`` array and groups elements by ``page number``.\n        For text/markdown/html: splits on the injected sentinel ``---ODL_PAGE_BREAK_N---``.\n        For pdf (binary): returns an empty list (page-level splitting not supported).\n\n        Returns:\n            list[Data]: One Data object per page with ``page_number``, ``total_pages``,\n            ``source``, ``file_path``, and ``format`` fields.\n        \"\"\"\n        page_data_list: list[Data] = []\n\n        for data in data_list:\n            content = data.data.get(\"text\", \"\")\n            source = data.data.get(\"source\", \"\")\n            file_path = data.data.get(\"file_path\", \"\")\n            fmt = data.data.get(\"format\", self.format)\n\n            if fmt == \"json\":\n                page_data_list.extend(self._parse_pages_from_json(content, source=source, file_path=file_path, fmt=fmt))\n            elif fmt == \"pdf\":\n                # Binary output — cannot split by page\n                continue\n            else:\n                page_data_list.extend(\n                    self._parse_pages_from_sentinel(content, source=source, file_path=file_path, fmt=fmt)\n                )\n\n        return page_data_list\n\n    def _parse_pages_from_json(self, content: str, *, source: str, file_path: str, fmt: str) -> list[Data]:\n        \"\"\"Extract per-page Data from opendataloader-pdf JSON output.\n\n        The actual JSON structure uses a flat ``kids`` array where each element\n        carries a ``page number`` field (space-separated key, 1-indexed).\n        \"\"\"\n        try:\n            parsed = json.loads(content)\n        except (json.JSONDecodeError, TypeError):\n            return []\n\n        total_pages = parsed.get(\"number of pages\", 1)\n\n        # Group element texts by page number\n        pages_map: dict[int, list[str]] = defaultdict(list)\n        for element in parsed.get(\"kids\", []):\n            page_num = element.get(\"page number\", 1)\n            text = element.get(\"content\", \"\")\n            if text:\n                pages_map[page_num].append(text)\n\n        result: list[Data] = []\n        for page_num in sorted(pages_map.keys()):\n            page_text = \"\\n\".join(pages_map[page_num])\n            result.append(\n                Data(\n                    data={\n                        \"text\": page_text,\n                        \"page_number\": page_num,\n                        \"total_pages\": total_pages,\n                        \"source\": source,\n                        \"file_path\": file_path,\n                        \"format\": fmt,\n                    }\n                )\n            )\n        return result\n\n    def _parse_pages_from_sentinel(self, content: str, *, source: str, file_path: str, fmt: str) -> list[Data]:\n        \"\"\"Split text content on ``---ODL_PAGE_BREAK_N---`` sentinels.\n\n        The sentinel is injected into the opendataloader-pdf page separator parameter\n        during ``process_files()`` so that we can recover page boundaries later.\n\n        The opendataloader-pdf library places the sentinel **before** each page's\n        content, and ``%page-number%`` is the page number of the content that follows.\n        So ``---ODL_PAGE_BREAK_1---`` means \"page 1 starts here\".\n        \"\"\"\n        parts = _PAGE_SENTINEL_PATTERN.split(content)\n        if len(parts) <= 1:\n            # No sentinel found — treat entire content as page 1\n            if content.strip():\n                return [\n                    Data(\n                        data={\n                            \"text\": content.strip(),\n                            \"page_number\": 1,\n                            \"total_pages\": 1,\n                            \"source\": source,\n                            \"file_path\": file_path,\n                            \"format\": fmt,\n                        }\n                    )\n                ]\n            return []\n\n        # re.split with a capturing group returns [text0, sep1, text1, sep2, text2, ...]\n        # Even indices are text chunks, odd indices are captured page numbers.\n        result: list[Data] = []\n        page_texts: dict[int, list[str]] = defaultdict(list)\n\n        # Collect all sentinel page numbers (including pages with empty text)\n        # to determine total_pages accurately.\n        all_sentinel_pages: list[int] = [int(parts[i]) for i in range(1, len(parts), 2)]\n\n        preamble: str | None = None\n        for i in range(0, len(parts), 2):\n            text_chunk = parts[i].strip()\n            if i == 0:\n                # Text before the first sentinel — typically empty.\n                # If non-empty, hold it as preamble to merge with the first page.\n                if text_chunk:\n                    preamble = text_chunk\n            else:\n                # The page number is in parts[i-1] (the captured group before this text).\n                # The sentinel is placed BEFORE the page content and %page-number%\n                # is the page number of the content that follows.\n                page_num = int(parts[i - 1])\n                if text_chunk:\n                    page_texts[page_num].append(text_chunk)\n\n        # Merge preamble into the first page (typically page 1) to avoid\n        # creating duplicate entries for the same page number.\n        if preamble:\n            first_page = min(all_sentinel_pages, default=1)\n            page_texts[first_page].insert(0, preamble)\n\n        # Determine total pages from all sentinels (not just non-empty pages)\n        # so that empty trailing pages are still counted.\n        total_pages = max(all_sentinel_pages, default=1)\n\n        for page_num in sorted(page_texts.keys()):\n            combined = \"\\n\".join(page_texts[page_num])\n            result.append(\n                Data(\n                    data={\n                        \"text\": combined,\n                        \"page_number\": page_num,\n                        \"total_pages\": total_pages,\n                        \"source\": source,\n                        \"file_path\": file_path,\n                        \"format\": fmt,\n                    }\n                )\n            )\n        return result\n\n    # ------------------------------ Pages output ----------------------------------\n\n    def load_files_by_page(self) -> DataFrame:\n        \"\"\"Load files and return a DataFrame with one row per page.\n\n        Each row contains: ``text``, ``page_number``, ``total_pages``, ``source``,\n        ``file_path``, ``format``. Connect this output to **Split Text** for RAG\n        pipelines with page-level citation support.\n        \"\"\"\n        page_data = self._get_cached_page_data()\n        if not page_data:\n            return DataFrame()\n\n        rows = [dict(d.data) for d in page_data]\n        return DataFrame(rows)\n\n    # ------------------------------ Message.files support ----------------------------\n\n    def _file_path_as_list(self) -> list[Data]:\n        \"\"\"Override to extract file paths from Message.files when available.\n\n        When an agent sends a Message with attached files, the file paths are\n        in ``message.files`` rather than ``message.text``.  This override checks\n        for that attribute first so dynamic PDF uploads work in chat / agent mode.\n        \"\"\"\n        file_path = self.file_path\n        if not file_path:\n            return []\n\n        def _extract_from_message(msg: Message) -> list[Data]:\n            files = getattr(msg, \"files\", None) or []\n            if files:\n                return [Data(data={self.SERVER_FILE_PATH_FIELDNAME: f}) for f in files]\n            # Fall back to message.text (backward-compatible)\n            return [Data(data={self.SERVER_FILE_PATH_FIELDNAME: msg.text})]\n\n        if isinstance(file_path, Message):\n            return _extract_from_message(file_path)\n        if isinstance(file_path, list):\n            results: list[Data] = []\n            for obj in file_path:\n                if isinstance(obj, Message):\n                    results.extend(_extract_from_message(obj))\n                elif isinstance(obj, Data):\n                    results.append(obj)\n            return results\n        if isinstance(file_path, Data):\n            return [file_path]\n\n        return super()._file_path_as_list()\n\n    # ------------------------------ Cached output overrides ------------------------\n\n    def load_files(self) -> DataFrame:\n        \"\"\"Load files and return as DataFrame, using the shared cache.\"\"\"\n        data_list = self._get_cached_data()\n        if not data_list:\n            return DataFrame()\n\n        all_rows = []\n        for data in data_list:\n            row = dict(data.data) if data.data else {}\n            all_rows.append(row)\n\n        df = DataFrame(all_rows)\n        self.status = df\n        return df\n\n    def load_files_message(self) -> Message:\n        \"\"\"Load files and return as Message, using the shared cache.\"\"\"\n        data_list = self._get_cached_data()\n        if not data_list:\n            return Message()\n\n        # Extract metadata from the first data item (matches base class behavior)\n        metadata = self._extract_file_metadata(data_list[0])\n\n        sep: str = getattr(self, \"separator\", \"\\n\\n\") or \"\\n\\n\"\n        parts: list[str] = []\n        for d in data_list:\n            text = self._extract_text(d)\n            if text:\n                parts.append(text)\n\n        return Message(text=sep.join(parts), **metadata)\n\n    # ------------------------------ Tool description with file names --------------\n\n    def get_tool_description(self) -> str:\n        \"\"\"Return a dynamic description that includes the names of uploaded files.\n\n        This helps the Agent understand which PDF files are available to process.\n        \"\"\"\n        base_description = self._base_description\n\n        file_paths = getattr(self, \"path\", None)\n        if not file_paths:\n            return base_description\n\n        if not isinstance(file_paths, list):\n            file_paths = [file_paths]\n\n        file_names = [Path(str(fp)).name for fp in file_paths if fp]\n\n        if file_names:\n            files_str = \", \".join(file_names)\n            return (\n                f\"{base_description} Available PDF files: {files_str}. Call this tool to extract text from these PDFs.\"\n            )\n\n        return base_description\n\n    @property\n    def description(self) -> str:\n        \"\"\"Dynamic description property that includes uploaded file names.\"\"\"\n        return self.get_tool_description()\n\n    @description.setter\n    def description(self, _value: str) -> None:\n        \"\"\"Accept but ignore external writes to keep the property dynamic.\"\"\"\n\n    async def _get_tools(self) -> list:\n        \"\"\"Create agent tools for PDF reading.\n\n        Two tools are exposed:\n        1. ``read_pdf`` — extract full text from all uploaded PDFs (no parameters).\n        2. ``read_pdf_page`` — extract text from a specific page (takes ``page_number``).\n        \"\"\"\n        from langchain_core.tools import StructuredTool\n        from pydantic import BaseModel, Field\n\n        description = self.get_tool_description()\n\n        # ---- Tool 1: read_pdf (full text, no parameters) ----\n\n        class EmptySchema(BaseModel):\n            \"\"\"No parameters required - uses pre-uploaded files.\"\"\"\n\n        async def read_pdf_tool() -> str:\n            \"\"\"Extract all text from uploaded PDF files.\"\"\"\n            try:\n                data_list = self._get_cached_data()\n                if not data_list:\n                    return \"No text extracted from the PDF files.\"\n                parts = [d.data.get(\"text\", \"\") for d in data_list]\n                return \"\\n\\n\".join(p for p in parts if p) or \"No text extracted.\"\n            except (FileNotFoundError, ValueError, OSError, RuntimeError, ImportError) as e:\n                return f\"Error processing PDF files: {e}\"\n\n        tool_read_pdf = StructuredTool(\n            name=\"read_pdf\",\n            description=f\"{description} Returns the full text of all pages.\",\n            coroutine=read_pdf_tool,\n            args_schema=EmptySchema,\n            handle_tool_error=True,\n            tags=[\"read_pdf\"],\n            metadata={\n                \"display_name\": \"OpenDataLoader PDF - Read All\",\n                \"display_description\": description,\n            },\n        )\n\n        # ---- Tool 2: read_pdf_page (specific page) ----\n\n        class PageSchema(BaseModel):\n            \"\"\"Parameters for reading a specific page from a PDF.\"\"\"\n\n            page_number: int = Field(description=\"Page number to extract (1-based)\")\n\n        async def read_pdf_page_tool(page_number: int) -> str:\n            \"\"\"Extract text from a specific page of the uploaded PDF files.\"\"\"\n            try:\n                page_data = self._get_cached_page_data()\n                matching = [p for p in page_data if p.data.get(\"page_number\") == page_number]\n                if matching:\n                    return matching[0].get_text()\n                if page_data:\n                    available = sorted({p.data.get(\"page_number\", 0) for p in page_data})\n                    return f\"Page {page_number} not found. Available pages: {available}\"\n                return f\"Page {page_number} not found. No pages could be extracted.\"  # noqa: TRY300\n            except (FileNotFoundError, ValueError, OSError, RuntimeError, ImportError) as e:\n                return f\"Error reading page {page_number}: {e}\"\n\n        tool_read_page = StructuredTool(\n            name=\"read_pdf_page\",\n            description=(\n                f\"{description} Extract text from a specific page by number. \"\n                \"Useful for detailed analysis or citation of particular pages.\"\n            ),\n            coroutine=read_pdf_page_tool,\n            args_schema=PageSchema,\n            handle_tool_error=True,\n            tags=[\"read_pdf_page\"],\n            metadata={\n                \"display_name\": \"OpenDataLoader PDF - Read Page\",\n                \"display_description\": \"Extract text from a specific page\",\n            },\n        )\n\n        return [tool_read_pdf, tool_read_page]\n\n    # ------------------------------ Internal helpers --------------------------------\n\n    def _check_java_installed(self) -> bool:\n        \"\"\"Check if Java 11 or later is installed and available.\"\"\"\n        try:\n            result = subprocess.run(\n                [\"java\", \"-version\"],  # noqa: S607\n                capture_output=True,\n                text=True,\n                timeout=10,\n                check=False,\n            )\n            # Java version info is typically in stderr\n            version_output = result.stderr or result.stdout\n            return result.returncode == 0 and bool(version_output)\n        except (subprocess.SubprocessError, FileNotFoundError, OSError):\n            return False\n\n    def _get_content_safety_off(self) -> list[str] | None:\n        \"\"\"Get the list of content safety filters to disable.\"\"\"\n        if self.content_safety == \"enabled\":\n            return None\n\n        filters = self.content_safety_filters.strip()\n        if not filters:\n            return [\"all\"]\n\n        return [f.strip() for f in filters.split(\",\") if f.strip()]\n\n    def _count_total_pages(self, content: str, *, parsed_json: dict | None = None, fmt: str | None = None) -> int:\n        \"\"\"Infer total page count from converted content.\n\n        For JSON: reads ``\"number of pages\"`` from *parsed_json* if supplied,\n        otherwise falls back to parsing *content*.  Callers that already hold a\n        parsed dict should pass it via *parsed_json* to avoid a redundant\n        ``json.loads`` call on large documents.\n\n        For text/markdown/html: counts sentinel occurrences (one per page).\n\n        Args:\n            fmt: Output format to use for branching.  Falls back to ``self.format``\n                 when not provided, for backward compatibility.\n        \"\"\"\n        effective_fmt = fmt or self.format\n        if effective_fmt == \"json\":\n            if parsed_json is not None:\n                try:\n                    return int(parsed_json.get(\"number of pages\", 1))\n                except (TypeError, ValueError):\n                    return 1\n            try:\n                parsed = json.loads(content)\n                return int(parsed.get(\"number of pages\", 1))\n            except (json.JSONDecodeError, TypeError, ValueError):\n                return 1\n\n        # For sentinel-split formats: use the maximum page number from sentinels.\n        # This is consistent with JSON format (which reports actual PDF page count)\n        # and with _parse_pages_from_sentinel() which uses max(page_numbers).\n        matches = _PAGE_SENTINEL_PATTERN.findall(content)\n        return max((int(m) for m in matches), default=1) if matches else 1\n\n    def _compute_word_count(self, content: str, *, parsed_json: dict | None = None, fmt: str | None = None) -> int:\n        \"\"\"Count words in the actual document text, regardless of output format.\n\n        For JSON: extracts ``content`` fields from the ``kids`` array.\n        For PDF (base64): returns 0 (binary data has no meaningful word count).\n        For text/markdown/html: strips sentinel markers before counting.\n\n        Args:\n            fmt: Output format to use for branching.  Falls back to ``self.format``\n                 when not provided, for backward compatibility.\n        \"\"\"\n        effective_fmt = fmt or self.format\n        if effective_fmt == \"pdf\":\n            return 0\n\n        if effective_fmt == \"json\":\n            parsed = parsed_json\n            if parsed is None:\n                try:\n                    parsed = json.loads(content)\n                except (json.JSONDecodeError, TypeError):\n                    return 0\n            texts = [el.get(\"content\", \"\") for el in parsed.get(\"kids\", []) if el.get(\"content\")]\n            return len(\" \".join(texts).split())\n\n        # text/markdown/html: strip sentinels before counting\n        clean = _PAGE_SENTINEL_PATTERN.sub(\" \", content)\n        return len(clean.split())\n\n    def process_files(self, file_list: list[BaseFileComponent.BaseFile]) -> list[BaseFileComponent.BaseFile]:\n        \"\"\"Process PDF files using OpenDataLoader PDF.\"\"\"\n        # Check for opendataloader_pdf package\n        try:\n            import opendataloader_pdf\n        except ImportError as e:\n            msg = (\n                \"opendataloader-pdf is not installed. \"\n                \"Install with `pip install -U opendataloader-pdf` or \"\n                \"`uv pip install opendataloader-pdf`.\"\n            )\n            raise ImportError(msg) from e\n\n        # Check for Java\n        if not self._check_java_installed():\n            msg = (\n                \"Java 11 or later is required but not found. \"\n                \"Please install Java from https://adoptium.net/ or your system's package manager. \"\n                \"After installation, ensure 'java' is available in your system PATH.\"\n            )\n            raise RuntimeError(msg)\n\n        file_paths = [file.path for file in file_list if file.path]\n\n        if not file_paths:\n            self.log(\"No files to process.\")\n            return file_list\n\n        # Determine file extension based on format\n        format_to_ext = {\n            \"json\": \"json\",\n            \"text\": \"txt\",\n            \"html\": \"html\",\n            \"markdown\": \"md\",\n            \"markdown-with-html\": \"md\",\n            \"markdown-with-images\": \"md\",\n            \"pdf\": \"pdf\",\n        }\n        ext = format_to_ext.get(self.format, \"txt\")\n\n        processed_data: list[Data | None] = []\n        temp_dirs: list[str] = []\n\n        use_custom_output_dir = bool(self.output_dir and self.output_dir.strip())\n\n        try:\n            for file_path in file_paths:\n                try:\n                    # Use user-specified directory or create a temporary one\n                    if use_custom_output_dir:\n                        output_dir = self.output_dir.strip()\n                        Path(output_dir).mkdir(parents=True, exist_ok=True)\n                    else:\n                        output_dir = tempfile.mkdtemp()\n                        temp_dirs.append(output_dir)\n\n                    # Build convert parameters\n                    convert_params = {\n                        \"input_path\": str(file_path),\n                        \"output_dir\": output_dir,\n                        \"format\": [self.format],\n                        \"quiet\": self.quiet,\n                        \"content_safety_off\": self._get_content_safety_off(),\n                        \"image_output\": self.image_output,\n                        \"image_format\": self.image_format,\n                        \"use_struct_tree\": self.use_struct_tree,\n                        \"replace_invalid_chars\": self.replace_invalid_chars,\n                        \"keep_line_breaks\": self.keep_line_breaks,\n                        \"include_header_footer\": self.include_header_footer,\n                        \"table_method\": self.table_method,\n                        \"reading_order\": self.reading_order,\n                        \"hybrid_fallback\": self.hybrid_fallback,\n                    }\n\n                    # Add optional string parameters (only if not empty)\n                    if self.password:\n                        convert_params[\"password\"] = self.password\n                    if self.pages:\n                        convert_params[\"pages\"] = self.pages\n                    if self.text_page_separator:\n                        convert_params[\"text_page_separator\"] = self.text_page_separator\n                    if self.markdown_page_separator:\n                        convert_params[\"markdown_page_separator\"] = self.markdown_page_separator\n                    if self.html_page_separator:\n                        convert_params[\"html_page_separator\"] = self.html_page_separator\n\n                    # Inject page sentinel for non-JSON, non-PDF formats when the user\n                    # has not already set a page separator.  This enables the Pages\n                    # output to split content by page with page_number metadata.\n                    separator_key = _FORMAT_TO_SEPARATOR_KEY.get(self.format)\n                    if separator_key and not convert_params.get(separator_key):\n                        convert_params[separator_key] = _PAGE_SENTINEL_TEMPLATE\n\n                    if self.hybrid != \"off\":\n                        convert_params[\"hybrid\"] = self.hybrid\n                        convert_params[\"hybrid_mode\"] = self.hybrid_mode\n                        hybrid_target = self.hybrid_url or \"http://localhost:5002 (default)\"\n                        self.log(\n                            f\"Hybrid mode enabled: backend={self.hybrid}, \"\n                            f\"triage={self.hybrid_mode}, url={hybrid_target}, \"\n                            f\"fallback={'enabled' if self.hybrid_fallback else 'disabled'}\"\n                        )\n                        if self.hybrid_url:\n                            convert_params[\"hybrid_url\"] = self.hybrid_url\n                        if self.hybrid_timeout is not None:\n                            # opendataloader-pdf CLI expects timeout as a string value\n                            convert_params[\"hybrid_timeout\"] = str(self.hybrid_timeout)\n\n                    # Convert PDF using opendataloader_pdf\n                    opendataloader_pdf.convert(**convert_params)\n\n                    # Find and read the output file.\n                    # Prefer the exact expected filename (input stem + format ext)\n                    # to avoid picking a stale file from a previous iteration when\n                    # the user specified a custom output_dir for multiple files.\n                    output_path = Path(output_dir)\n                    expected_output = output_path / f\"{file_path.stem}.{ext}\"\n                    output_files = [expected_output] if expected_output.exists() else list(output_path.glob(f\"*.{ext}\"))\n\n                    if output_files:\n                        if self.format == \"pdf\":\n                            import base64\n\n                            with output_files[0].open(\"rb\") as f:\n                                content = base64.b64encode(f.read()).decode(\"ascii\")\n                        else:\n                            with output_files[0].open(encoding=\"utf-8\") as f:\n                                content = f.read()\n\n                        # For JSON format, parse once and reuse the dict for\n                        # _count_total_pages to avoid a redundant json.loads.\n                        pre_parsed: dict | None = None\n                        if self.format == \"json\":\n                            with contextlib.suppress(json.JSONDecodeError, TypeError):\n                                pre_parsed = json.loads(content)\n\n                        total_pages = self._count_total_pages(content, parsed_json=pre_parsed)\n\n                        # Compute word count from actual document text, not raw format output.\n                        # JSON content contains syntax tokens; PDF content is base64-encoded.\n                        word_count = self._compute_word_count(content, parsed_json=pre_parsed)\n\n                        processed_data.append(\n                            Data(\n                                data={\n                                    \"text\": content,\n                                    \"file_path\": str(file_path),\n                                    \"format\": self.format,\n                                    \"source\": file_path.name,\n                                    \"total_pages\": total_pages,\n                                    \"word_count\": word_count,\n                                }\n                            )\n                        )\n                    else:\n                        self.log(f\"No output file generated for {file_path}\")\n                        processed_data.append(None)\n\n                except (\n                    subprocess.SubprocessError,\n                    OSError,\n                    ValueError,\n                    RuntimeError,\n                ) as e:\n                    self.log(f\"Error processing {file_path}: {e}\")\n                    if not self.silent_errors:\n                        raise\n                    processed_data.append(None)\n\n        finally:\n            # Clean up temporary directories\n            for temp_dir in temp_dirs:\n                try:\n                    shutil.rmtree(temp_dir)\n                except OSError as e:\n                    self.log(f\"Error cleaning up temp directory: {e}\")\n\n        return self.rollup_data(file_list, processed_data)\n"
+            },
+            "content_safety": {
+              "_input_type": "DropdownInput",
+              "advanced": true,
+              "combobox": false,
+              "dialog_inputs": {},
+              "display_name": "Content Safety",
+              "dynamic": false,
+              "external_options": {},
+              "info": "AI safety filters to protect against prompt injection. Enabled by default to filter hidden text, off-page content, and tiny text.",
+              "name": "content_safety",
+              "options": [
+                "enabled",
+                "disabled"
+              ],
+              "options_metadata": [],
+              "override_skip": false,
+              "placeholder": "",
+              "required": false,
+              "show": true,
+              "title_case": false,
+              "toggle": false,
+              "tool_mode": false,
+              "trace_as_metadata": true,
+              "track_in_telemetry": true,
+              "type": "str",
+              "value": "enabled"
+            },
+            "content_safety_filters": {
+              "_input_type": "MultilineInput",
+              "advanced": true,
+              "ai_enabled": false,
+              "copy_field": false,
+              "display_name": "Disabled Safety Filters",
+              "dynamic": false,
+              "info": "Comma-separated list of safety filters to disable when Content Safety is 'disabled'. Options: all, hidden-text, off-page, tiny, hidden-ocg",
+              "input_types": [
+                "Message"
+              ],
+              "list": false,
+              "list_add_label": "Add More",
+              "load_from_db": false,
+              "multiline": true,
+              "name": "content_safety_filters",
+              "override_skip": false,
+              "password": false,
+              "placeholder": "",
+              "required": false,
+              "show": true,
+              "title_case": false,
+              "tool_mode": false,
+              "trace_as_input": true,
+              "trace_as_metadata": true,
+              "track_in_telemetry": false,
+              "type": "str",
+              "value": "all"
+            },
+            "delete_server_file_after_processing": {
+              "_input_type": "BoolInput",
+              "advanced": true,
+              "display_name": "Delete Server File After Processing",
+              "dynamic": false,
+              "info": "If true, the Server File Path will be deleted after processing.",
+              "list": false,
+              "list_add_label": "Add More",
+              "name": "delete_server_file_after_processing",
+              "override_skip": false,
+              "placeholder": "",
+              "required": false,
+              "show": true,
+              "title_case": false,
+              "tool_mode": false,
+              "trace_as_metadata": true,
+              "track_in_telemetry": true,
+              "type": "bool",
+              "value": true
+            },
+            "file_path": {
+              "_input_type": "HandleInput",
+              "advanced": true,
+              "display_name": "Server File Path",
+              "dynamic": false,
+              "info": "Data object with a 'file_path' property pointing to server file or a Message object with a path to the file. Supercedes 'Path' but supports same file types.",
+              "input_types": [
+                "Data",
+                "Message"
+              ],
+              "list": true,
+              "list_add_label": "Add More",
+              "name": "file_path",
+              "override_skip": false,
+              "placeholder": "",
+              "required": false,
+              "show": true,
+              "title_case": false,
+              "trace_as_metadata": true,
+              "track_in_telemetry": false,
+              "type": "other",
+              "value": ""
+            },
+            "file_path_str": {
+              "_input_type": "StrInput",
+              "advanced": true,
+              "display_name": "File Path",
+              "dynamic": false,
+              "info": "Used internally for tool mode activation.",
+              "list": false,
+              "list_add_label": "Add More",
+              "load_from_db": false,
+              "name": "file_path_str",
+              "override_skip": false,
+              "placeholder": "",
+              "required": false,
+              "show": false,
+              "title_case": false,
+              "tool_mode": true,
+              "trace_as_metadata": true,
+              "track_in_telemetry": false,
+              "type": "str",
+              "value": ""
+            },
+            "format": {
+              "_input_type": "DropdownInput",
+              "advanced": false,
+              "combobox": false,
+              "dialog_inputs": {},
+              "display_name": "Output Format",
+              "dynamic": false,
+              "external_options": {},
+              "info": "The output format for the converted PDF content.",
+              "name": "format",
+              "options": [
+                "json",
+                "text",
+                "markdown",
+                "markdown-with-html",
+                "markdown-with-images",
+                "html",
+                "pdf"
+              ],
+              "options_metadata": [],
+              "override_skip": false,
+              "placeholder": "",
+              "required": false,
+              "show": true,
+              "title_case": false,
+              "toggle": false,
+              "tool_mode": false,
+              "trace_as_metadata": true,
+              "track_in_telemetry": true,
+              "type": "str",
+              "value": "json"
+            },
+            "html_page_separator": {
+              "_input_type": "StrInput",
+              "advanced": true,
+              "display_name": "HTML Page Separator",
+              "dynamic": false,
+              "info": "Separator between pages in HTML output. Use %page-number% for page numbers.",
+              "list": false,
+              "list_add_label": "Add More",
+              "load_from_db": false,
+              "name": "html_page_separator",
+              "override_skip": false,
+              "placeholder": "",
+              "required": false,
+              "show": true,
+              "title_case": false,
+              "tool_mode": false,
+              "trace_as_metadata": true,
+              "track_in_telemetry": false,
+              "type": "str",
+              "value": ""
+            },
+            "hybrid": {
+              "_input_type": "DropdownInput",
+              "advanced": true,
+              "combobox": false,
+              "dialog_inputs": {},
+              "display_name": "Hybrid Mode",
+              "dynamic": false,
+              "external_options": {},
+              "info": "Use AI backend for complex pages. 'docling-fast' routes challenging pages to AI processing.",
+              "name": "hybrid",
+              "options": [
+                "off",
+                "docling-fast"
+              ],
+              "options_metadata": [],
+              "override_skip": false,
+              "placeholder": "",
+              "required": false,
+              "show": true,
+              "title_case": false,
+              "toggle": false,
+              "tool_mode": false,
+              "trace_as_metadata": true,
+              "track_in_telemetry": true,
+              "type": "str",
+              "value": "off"
+            },
+            "hybrid_fallback": {
+              "_input_type": "BoolInput",
+              "advanced": true,
+              "display_name": "Hybrid Fallback",
+              "dynamic": false,
+              "info": "Fall back to local processing if hybrid backend fails. When enabled, connection failures are handled silently and processing continues locally.",
+              "list": false,
+              "list_add_label": "Add More",
+              "name": "hybrid_fallback",
+              "override_skip": false,
+              "placeholder": "",
+              "required": false,
+              "show": true,
+              "title_case": false,
+              "tool_mode": false,
+              "trace_as_metadata": true,
+              "track_in_telemetry": true,
+              "type": "bool",
+              "value": true
+            },
+            "hybrid_mode": {
+              "_input_type": "DropdownInput",
+              "advanced": true,
+              "combobox": false,
+              "dialog_inputs": {},
+              "display_name": "Hybrid Triage Mode",
+              "dynamic": false,
+              "external_options": {},
+              "info": "How to decide which pages go to AI backend. 'auto' uses dynamic triage, 'full' sends all pages.",
+              "name": "hybrid_mode",
+              "options": [
+                "auto",
+                "full"
+              ],
+              "options_metadata": [],
+              "override_skip": false,
+              "placeholder": "",
+              "required": false,
+              "show": true,
+              "title_case": false,
+              "toggle": false,
+              "tool_mode": false,
+              "trace_as_metadata": true,
+              "track_in_telemetry": true,
+              "type": "str",
+              "value": "auto"
+            },
+            "hybrid_timeout": {
+              "_input_type": "IntInput",
+              "advanced": true,
+              "display_name": "Hybrid Timeout (ms)",
+              "dynamic": false,
+              "info": "Timeout for hybrid backend requests in milliseconds.",
+              "list": false,
+              "list_add_label": "Add More",
+              "name": "hybrid_timeout",
+              "override_skip": false,
+              "placeholder": "",
+              "required": false,
+              "show": true,
+              "title_case": false,
+              "tool_mode": false,
+              "trace_as_metadata": true,
+              "track_in_telemetry": true,
+              "type": "int",
+              "value": 30000
+            },
+            "hybrid_url": {
+              "_input_type": "StrInput",
+              "advanced": true,
+              "display_name": "Hybrid Backend URL",
+              "dynamic": false,
+              "info": "Custom URL for hybrid backend server. Leave empty to use the library default (http://localhost:5002).",
+              "list": false,
+              "list_add_label": "Add More",
+              "load_from_db": false,
+              "name": "hybrid_url",
+              "override_skip": false,
+              "placeholder": "",
+              "required": false,
+              "show": true,
+              "title_case": false,
+              "tool_mode": false,
+              "trace_as_metadata": true,
+              "track_in_telemetry": false,
+              "type": "str",
+              "value": ""
+            },
+            "ignore_unspecified_files": {
+              "_input_type": "BoolInput",
+              "advanced": true,
+              "display_name": "Ignore Unspecified Files",
+              "dynamic": false,
+              "info": "If true, Data with no 'file_path' property will be ignored.",
+              "list": false,
+              "list_add_label": "Add More",
+              "name": "ignore_unspecified_files",
+              "override_skip": false,
+              "placeholder": "",
+              "required": false,
+              "show": true,
+              "title_case": false,
+              "tool_mode": false,
+              "trace_as_metadata": true,
+              "track_in_telemetry": true,
+              "type": "bool",
+              "value": false
+            },
+            "ignore_unsupported_extensions": {
+              "_input_type": "BoolInput",
+              "advanced": true,
+              "display_name": "Ignore Unsupported Extensions",
+              "dynamic": false,
+              "info": "If true, files with unsupported extensions will not be processed.",
+              "list": false,
+              "list_add_label": "Add More",
+              "name": "ignore_unsupported_extensions",
+              "override_skip": false,
+              "placeholder": "",
+              "required": false,
+              "show": true,
+              "title_case": false,
+              "tool_mode": false,
+              "trace_as_metadata": true,
+              "track_in_telemetry": true,
+              "type": "bool",
+              "value": true
+            },
+            "image_format": {
+              "_input_type": "DropdownInput",
+              "advanced": true,
+              "combobox": false,
+              "dialog_inputs": {},
+              "display_name": "Image Format",
+              "dynamic": false,
+              "external_options": {},
+              "info": "Output format for extracted images.",
+              "name": "image_format",
+              "options": [
+                "png",
+                "jpeg"
+              ],
+              "options_metadata": [],
+              "override_skip": false,
+              "placeholder": "",
+              "required": false,
+              "show": true,
+              "title_case": false,
+              "toggle": false,
+              "tool_mode": false,
+              "trace_as_metadata": true,
+              "track_in_telemetry": true,
+              "type": "str",
+              "value": "png"
+            },
+            "image_output": {
+              "_input_type": "DropdownInput",
+              "advanced": true,
+              "combobox": false,
+              "dialog_inputs": {},
+              "display_name": "Image Output",
+              "dynamic": false,
+              "external_options": {},
+              "info": "How to handle images in the PDF. 'off' excludes images, 'embedded' includes Base64 in output, 'external' saves images as separate files.",
+              "name": "image_output",
+              "options": [
+                "external",
+                "embedded",
+                "off"
+              ],
+              "options_metadata": [],
+              "override_skip": false,
+              "placeholder": "",
+              "required": false,
+              "show": true,
+              "title_case": false,
+              "toggle": false,
+              "tool_mode": false,
+              "trace_as_metadata": true,
+              "track_in_telemetry": true,
+              "type": "str",
+              "value": "external"
+            },
+            "include_header_footer": {
+              "_input_type": "BoolInput",
+              "advanced": true,
+              "display_name": "Include Header/Footer",
+              "dynamic": false,
+              "info": "Include page headers and footers in output.",
+              "list": false,
+              "list_add_label": "Add More",
+              "name": "include_header_footer",
+              "override_skip": false,
+              "placeholder": "",
+              "required": false,
+              "show": true,
+              "title_case": false,
+              "tool_mode": false,
+              "trace_as_metadata": true,
+              "track_in_telemetry": true,
+              "type": "bool",
+              "value": false
+            },
+            "keep_line_breaks": {
+              "_input_type": "BoolInput",
+              "advanced": true,
+              "display_name": "Keep Line Breaks",
+              "dynamic": false,
+              "info": "Preserve original line breaks in extracted text.",
+              "list": false,
+              "list_add_label": "Add More",
+              "name": "keep_line_breaks",
+              "override_skip": false,
+              "placeholder": "",
+              "required": false,
+              "show": true,
+              "title_case": false,
+              "tool_mode": false,
+              "trace_as_metadata": true,
+              "track_in_telemetry": true,
+              "type": "bool",
+              "value": false
+            },
+            "markdown_page_separator": {
+              "_input_type": "StrInput",
+              "advanced": true,
+              "display_name": "Markdown Page Separator",
+              "dynamic": false,
+              "info": "Separator between pages in Markdown output. Use %page-number% for page numbers.",
+              "list": false,
+              "list_add_label": "Add More",
+              "load_from_db": false,
+              "name": "markdown_page_separator",
+              "override_skip": false,
+              "placeholder": "",
+              "required": false,
+              "show": true,
+              "title_case": false,
+              "tool_mode": false,
+              "trace_as_metadata": true,
+              "track_in_telemetry": false,
+              "type": "str",
+              "value": ""
+            },
+            "image_dir": {
+              "_input_type": "StrInput",
+              "advanced": true,
+              "display_name": "Image Directory",
+              "dynamic": false,
+              "info": "Directory to save extracted images when Image Output is 'external'. Leave empty to save images alongside the output files.",
+              "list": false,
+              "list_add_label": "Add More",
+              "load_from_db": false,
+              "name": "image_dir",
+              "override_skip": false,
+              "placeholder": "",
+              "required": false,
+              "show": true,
+              "title_case": false,
+              "tool_mode": false,
+              "trace_as_metadata": true,
+              "track_in_telemetry": false,
+              "type": "str",
+              "value": ""
+            },
+            "output_dir": {
+              "_input_type": "StrInput",
+              "advanced": true,
+              "display_name": "Output Directory",
+              "dynamic": false,
+              "info": "Directory to save converted files. Leave empty to use a temporary directory (files are not persisted).",
+              "list": false,
+              "list_add_label": "Add More",
+              "load_from_db": false,
+              "name": "output_dir",
+              "override_skip": false,
+              "placeholder": "",
+              "required": false,
+              "show": true,
+              "title_case": false,
+              "tool_mode": false,
+              "trace_as_metadata": true,
+              "track_in_telemetry": false,
+              "type": "str",
+              "value": ""
+            },
+            "pages": {
+              "_input_type": "StrInput",
+              "advanced": true,
+              "display_name": "Pages",
+              "dynamic": false,
+              "info": "Pages to extract (e.g., '1,3,5-7'). Leave empty for all pages.",
+              "list": false,
+              "list_add_label": "Add More",
+              "load_from_db": false,
+              "name": "pages",
+              "override_skip": false,
+              "placeholder": "",
+              "required": false,
+              "show": true,
+              "title_case": false,
+              "tool_mode": false,
+              "trace_as_metadata": true,
+              "track_in_telemetry": false,
+              "type": "str",
+              "value": ""
+            },
+            "password": {
+              "_input_type": "SecretStrInput",
+              "advanced": true,
+              "display_name": "PDF Password",
+              "dynamic": false,
+              "info": "Password for encrypted PDF files.",
+              "input_types": [],
+              "load_from_db": true,
+              "name": "password",
+              "override_skip": false,
+              "password": true,
+              "placeholder": "",
+              "required": false,
+              "show": true,
+              "title_case": false,
+              "track_in_telemetry": false,
+              "type": "str",
+              "value": ""
+            },
+            "path": {
+              "_input_type": "FileInput",
+              "advanced": false,
+              "display_name": "Files",
+              "dynamic": false,
+              "fileTypes": [
+                "pdf",
+                "zip",
+                "tar",
+                "tgz",
+                "bz2",
+                "gz"
+              ],
+              "file_path": "",
+              "info": "Supported file extensions: pdf; optionally bundled in file extensions: zip, tar, tgz, bz2, gz",
+              "list": true,
+              "list_add_label": "Add More",
+              "name": "path",
+              "override_skip": false,
+              "placeholder": "",
+              "required": false,
+              "show": true,
+              "temp_file": false,
+              "title_case": false,
+              "tool_mode": false,
+              "trace_as_metadata": true,
+              "track_in_telemetry": false,
+              "type": "file",
+              "value": []
+            },
+            "quiet": {
+              "_input_type": "BoolInput",
+              "advanced": true,
+              "display_name": "Quiet Mode",
+              "dynamic": false,
+              "info": "Suppress CLI logging output when enabled.",
+              "list": false,
+              "list_add_label": "Add More",
+              "name": "quiet",
+              "override_skip": false,
+              "placeholder": "",
+              "required": false,
+              "show": true,
+              "title_case": false,
+              "tool_mode": false,
+              "trace_as_metadata": true,
+              "track_in_telemetry": true,
+              "type": "bool",
+              "value": true
+            },
+            "reading_order": {
+              "_input_type": "DropdownInput",
+              "advanced": true,
+              "combobox": false,
+              "dialog_inputs": {},
+              "display_name": "Reading Order",
+              "dynamic": false,
+              "external_options": {},
+              "info": "Algorithm for determining reading order. 'xycut' handles multi-column layouts.",
+              "name": "reading_order",
+              "options": [
+                "xycut",
+                "off"
+              ],
+              "options_metadata": [],
+              "override_skip": false,
+              "placeholder": "",
+              "required": false,
+              "show": true,
+              "title_case": false,
+              "toggle": false,
+              "tool_mode": false,
+              "trace_as_metadata": true,
+              "track_in_telemetry": true,
+              "type": "str",
+              "value": "xycut"
+            },
+            "replace_invalid_chars": {
+              "_input_type": "StrInput",
+              "advanced": true,
+              "display_name": "Replace Invalid Characters",
+              "dynamic": false,
+              "info": "Replacement character for invalid or unrecognized characters in extracted text. Default is a space.",
+              "list": false,
+              "list_add_label": "Add More",
+              "load_from_db": false,
+              "name": "replace_invalid_chars",
+              "override_skip": false,
+              "placeholder": "",
+              "required": false,
+              "show": true,
+              "title_case": false,
+              "tool_mode": false,
+              "trace_as_metadata": true,
+              "track_in_telemetry": false,
+              "type": "str",
+              "value": " "
+            },
+            "separator": {
+              "_input_type": "StrInput",
+              "advanced": true,
+              "display_name": "Separator",
+              "dynamic": false,
+              "info": "Specify the separator to use between multiple outputs in Message format.",
+              "list": false,
+              "list_add_label": "Add More",
+              "load_from_db": false,
+              "name": "separator",
+              "override_skip": false,
+              "placeholder": "",
+              "required": false,
+              "show": true,
+              "title_case": false,
+              "tool_mode": false,
+              "trace_as_metadata": true,
+              "track_in_telemetry": false,
+              "type": "str",
+              "value": "\n\n"
+            },
+            "silent_errors": {
+              "_input_type": "BoolInput",
+              "advanced": true,
+              "display_name": "Silent Errors",
+              "dynamic": false,
+              "info": "If true, errors will not raise an exception.",
+              "list": false,
+              "list_add_label": "Add More",
+              "name": "silent_errors",
+              "override_skip": false,
+              "placeholder": "",
+              "required": false,
+              "show": true,
+              "title_case": false,
+              "tool_mode": false,
+              "trace_as_metadata": true,
+              "track_in_telemetry": true,
+              "type": "bool",
+              "value": false
+            },
+            "table_method": {
+              "_input_type": "DropdownInput",
+              "advanced": true,
+              "combobox": false,
+              "dialog_inputs": {},
+              "display_name": "Table Detection Method",
+              "dynamic": false,
+              "external_options": {},
+              "info": "Method for detecting tables. 'cluster' may improve accuracy for borderless tables.",
+              "name": "table_method",
+              "options": [
+                "default",
+                "cluster"
+              ],
+              "options_metadata": [],
+              "override_skip": false,
+              "placeholder": "",
+              "required": false,
+              "show": true,
+              "title_case": false,
+              "toggle": false,
+              "tool_mode": false,
+              "trace_as_metadata": true,
+              "track_in_telemetry": true,
+              "type": "str",
+              "value": "default"
+            },
+            "text_page_separator": {
+              "_input_type": "StrInput",
+              "advanced": true,
+              "display_name": "Text Page Separator",
+              "dynamic": false,
+              "info": "Separator between pages in text output. Use %page-number% for page numbers.",
+              "list": false,
+              "list_add_label": "Add More",
+              "load_from_db": false,
+              "name": "text_page_separator",
+              "override_skip": false,
+              "placeholder": "",
+              "required": false,
+              "show": true,
+              "title_case": false,
+              "tool_mode": false,
+              "trace_as_metadata": true,
+              "track_in_telemetry": false,
+              "type": "str",
+              "value": ""
+            },
+            "use_struct_tree": {
+              "_input_type": "BoolInput",
+              "advanced": true,
+              "display_name": "Use Tagged PDF Structure",
+              "dynamic": false,
+              "info": "Use native PDF structure tags when available. Improves accuracy for accessible PDFs with semantic markup.",
+              "list": false,
+              "list_add_label": "Add More",
+              "name": "use_struct_tree",
+              "override_skip": false,
+              "placeholder": "",
+              "required": false,
+              "show": true,
+              "title_case": false,
+              "tool_mode": false,
+              "trace_as_metadata": true,
+              "track_in_telemetry": true,
+              "type": "bool",
+              "value": true
+            }
+          },
+          "tool_mode": false
+        }
+      }
+    ],
+    [
       "openrouter",
       {
         "OpenRouterComponent": {
@@ -98635,454 +99429,6 @@
           },
           "tool_mode": false
         },
-        "DataOperations": {
-          "base_classes": [
-            "Data"
-          ],
-          "beta": false,
-          "conditional_paths": [],
-          "custom_fields": {},
-          "description": "Perform various operations on a Data object.",
-          "display_name": "Data Operations",
-          "documentation": "",
-          "edited": false,
-          "field_order": [
-            "data",
-            "operations",
-            "select_keys_input",
-            "filter_key",
-            "operator",
-            "filter_values",
-            "append_update_data",
-            "remove_keys_input",
-            "rename_keys_input",
-            "mapped_json_display",
-            "selected_key",
-            "query"
-          ],
-          "frozen": false,
-          "icon": "file-json",
-          "legacy": false,
-          "metadata": {
-            "code_hash": "f5d9680f8644",
-            "dependencies": {
-              "dependencies": [
-                {
-                  "name": "jq",
-                  "version": "1.11.0"
-                },
-                {
-                  "name": "json_repair",
-                  "version": "0.30.3"
-                },
-                {
-                  "name": "lfx",
-                  "version": null
-                }
-              ],
-              "total_dependencies": 3
-            },
-            "keywords": [
-              "data",
-              "operations",
-              "filter values",
-              "Append or Update",
-              "remove keys",
-              "rename keys",
-              "select keys",
-              "literal eval",
-              "combine",
-              "filter",
-              "append",
-              "update",
-              "remove",
-              "rename",
-              "data operations",
-              "data manipulation",
-              "data transformation",
-              "data filtering",
-              "data selection",
-              "data combination",
-              "Parse JSON",
-              "JSON Query",
-              "JQ Query"
-            ],
-            "module": "lfx.components.processing.data_operations.DataOperationsComponent"
-          },
-          "minimized": false,
-          "output_types": [],
-          "outputs": [
-            {
-              "allows_loop": false,
-              "cache": true,
-              "display_name": "Data",
-              "group_outputs": false,
-              "method": "as_data",
-              "name": "data_output",
-              "selected": "Data",
-              "tool_mode": true,
-              "types": [
-                "Data"
-              ],
-              "value": "__UNDEFINED__"
-            }
-          ],
-          "pinned": false,
-          "template": {
-            "_type": "Component",
-            "append_update_data": {
-              "_input_type": "DictInput",
-              "advanced": false,
-              "display_name": "Append or Update",
-              "dynamic": false,
-              "info": "Data to append or update the existing data with. Only top-level keys are checked.",
-              "list": true,
-              "list_add_label": "Add More",
-              "name": "append_update_data",
-              "override_skip": false,
-              "placeholder": "",
-              "required": false,
-              "show": false,
-              "title_case": false,
-              "tool_mode": false,
-              "trace_as_input": true,
-              "track_in_telemetry": false,
-              "type": "dict",
-              "value": {
-                "key": "value"
-              }
-            },
-            "code": {
-              "advanced": true,
-              "dynamic": true,
-              "fileTypes": [],
-              "file_path": "",
-              "info": "",
-              "list": false,
-              "load_from_db": false,
-              "multiline": true,
-              "name": "code",
-              "password": false,
-              "placeholder": "",
-              "required": true,
-              "show": true,
-              "title_case": false,
-              "type": "code",
-              "value": "import ast\nimport json\nfrom typing import TYPE_CHECKING, Any\n\nimport jq\nfrom json_repair import repair_json\n\nfrom lfx.custom import Component\nfrom lfx.inputs import DictInput, DropdownInput, MessageTextInput, SortableListInput\nfrom lfx.io import DataInput, MultilineInput, Output\nfrom lfx.log.logger import logger\nfrom lfx.schema import Data\nfrom lfx.schema.dotdict import dotdict\nfrom lfx.utils.component_utils import set_current_fields, set_field_display\n\nif TYPE_CHECKING:\n    from collections.abc import Callable\n\nACTION_CONFIG = {\n    \"Select Keys\": {\"is_list\": False, \"log_msg\": \"setting filter fields\"},\n    \"Literal Eval\": {\"is_list\": False, \"log_msg\": \"setting evaluate fields\"},\n    \"Combine\": {\"is_list\": True, \"log_msg\": \"setting combine fields\"},\n    \"Filter Values\": {\"is_list\": False, \"log_msg\": \"setting filter values fields\"},\n    \"Append or Update\": {\"is_list\": False, \"log_msg\": \"setting Append or Update fields\"},\n    \"Remove Keys\": {\"is_list\": False, \"log_msg\": \"setting remove keys fields\"},\n    \"Rename Keys\": {\"is_list\": False, \"log_msg\": \"setting rename keys fields\"},\n    \"Path Selection\": {\"is_list\": False, \"log_msg\": \"setting mapped key extractor fields\"},\n    \"JQ Expression\": {\"is_list\": False, \"log_msg\": \"setting parse json fields\"},\n}\nOPERATORS = {\n    \"equals\": lambda a, b: str(a) == str(b),\n    \"not equals\": lambda a, b: str(a) != str(b),\n    \"contains\": lambda a, b: str(b) in str(a),\n    \"starts with\": lambda a, b: str(a).startswith(str(b)),\n    \"ends with\": lambda a, b: str(a).endswith(str(b)),\n}\n\n\nclass DataOperationsComponent(Component):\n    display_name = \"Data Operations\"\n    description = \"Perform various operations on a Data object.\"\n    icon = \"file-json\"\n    name = \"DataOperations\"\n    default_keys = [\"operations\", \"data\"]\n    metadata = {\n        \"keywords\": [\n            \"data\",\n            \"operations\",\n            \"filter values\",\n            \"Append or Update\",\n            \"remove keys\",\n            \"rename keys\",\n            \"select keys\",\n            \"literal eval\",\n            \"combine\",\n            \"filter\",\n            \"append\",\n            \"update\",\n            \"remove\",\n            \"rename\",\n            \"data operations\",\n            \"data manipulation\",\n            \"data transformation\",\n            \"data filtering\",\n            \"data selection\",\n            \"data combination\",\n            \"Parse JSON\",\n            \"JSON Query\",\n            \"JQ Query\",\n        ],\n    }\n    actions_data = {\n        \"Select Keys\": [\"select_keys_input\", \"operations\"],\n        \"Literal Eval\": [],\n        \"Combine\": [],\n        \"Filter Values\": [\"filter_values\", \"operations\", \"operator\", \"filter_key\"],\n        \"Append or Update\": [\"append_update_data\", \"operations\"],\n        \"Remove Keys\": [\"remove_keys_input\", \"operations\"],\n        \"Rename Keys\": [\"rename_keys_input\", \"operations\"],\n        \"Path Selection\": [\"mapped_json_display\", \"selected_key\", \"operations\"],\n        \"JQ Expression\": [\"query\", \"operations\"],\n    }\n\n    @staticmethod\n    def extract_all_paths(obj, path=\"\"):\n        paths = []\n        if isinstance(obj, dict):\n            for k, v in obj.items():\n                new_path = f\"{path}.{k}\" if path else f\".{k}\"\n                paths.append(new_path)\n                paths.extend(DataOperationsComponent.extract_all_paths(v, new_path))\n        elif isinstance(obj, list) and obj:\n            new_path = f\"{path}[0]\"\n            paths.append(new_path)\n            paths.extend(DataOperationsComponent.extract_all_paths(obj[0], new_path))\n        return paths\n\n    @staticmethod\n    def remove_keys_recursive(obj, keys_to_remove):\n        if isinstance(obj, dict):\n            return {\n                k: DataOperationsComponent.remove_keys_recursive(v, keys_to_remove)\n                for k, v in obj.items()\n                if k not in keys_to_remove\n            }\n        if isinstance(obj, list):\n            return [DataOperationsComponent.remove_keys_recursive(item, keys_to_remove) for item in obj]\n        return obj\n\n    @staticmethod\n    def rename_keys_recursive(obj, rename_map):\n        if isinstance(obj, dict):\n            return {\n                rename_map.get(k, k): DataOperationsComponent.rename_keys_recursive(v, rename_map)\n                for k, v in obj.items()\n            }\n        if isinstance(obj, list):\n            return [DataOperationsComponent.rename_keys_recursive(item, rename_map) for item in obj]\n        return obj\n\n    inputs = [\n        DataInput(name=\"data\", display_name=\"Data\", info=\"Data object to filter.\", required=True, is_list=True),\n        SortableListInput(\n            name=\"operations\",\n            display_name=\"Operations\",\n            placeholder=\"Select Operation\",\n            info=\"List of operations to perform on the data.\",\n            options=[\n                {\"name\": \"Select Keys\", \"icon\": \"lasso-select\"},\n                {\"name\": \"Literal Eval\", \"icon\": \"braces\"},\n                {\"name\": \"Combine\", \"icon\": \"merge\"},\n                {\"name\": \"Filter Values\", \"icon\": \"filter\"},\n                {\"name\": \"Append or Update\", \"icon\": \"circle-plus\"},\n                {\"name\": \"Remove Keys\", \"icon\": \"eraser\"},\n                {\"name\": \"Rename Keys\", \"icon\": \"pencil-line\"},\n                {\"name\": \"Path Selection\", \"icon\": \"mouse-pointer\"},\n                {\"name\": \"JQ Expression\", \"icon\": \"terminal\"},\n            ],\n            real_time_refresh=True,\n            limit=1,\n        ),\n        # select keys inputs\n        MessageTextInput(\n            name=\"select_keys_input\",\n            display_name=\"Select Keys\",\n            info=\"List of keys to select from the data. Only top-level keys can be selected.\",\n            show=False,\n            is_list=True,\n        ),\n        # filter values inputs\n        MessageTextInput(\n            name=\"filter_key\",\n            display_name=\"Filter Key\",\n            info=(\n                \"Name of the key containing the list to filter. \"\n                \"It must be a top-level key in the JSON and its value must be a list.\"\n            ),\n            is_list=True,\n            show=False,\n        ),\n        DropdownInput(\n            name=\"operator\",\n            display_name=\"Comparison Operator\",\n            options=[\"equals\", \"not equals\", \"contains\", \"starts with\", \"ends with\"],\n            info=\"The operator to apply for comparing the values.\",\n            value=\"equals\",\n            advanced=False,\n            show=False,\n        ),\n        DictInput(\n            name=\"filter_values\",\n            display_name=\"Filter Values\",\n            info=\"List of values to filter by.\",\n            show=False,\n            is_list=True,\n        ),\n        # update/ Append data inputs\n        DictInput(\n            name=\"append_update_data\",\n            display_name=\"Append or Update\",\n            info=\"Data to append or update the existing data with. Only top-level keys are checked.\",\n            show=False,\n            value={\"key\": \"value\"},\n            is_list=True,\n        ),\n        # remove keys inputs\n        MessageTextInput(\n            name=\"remove_keys_input\",\n            display_name=\"Remove Keys\",\n            info=\"List of keys to remove from the data.\",\n            show=False,\n            is_list=True,\n        ),\n        # rename keys inputs\n        DictInput(\n            name=\"rename_keys_input\",\n            display_name=\"Rename Keys\",\n            info=\"List of keys to rename in the data.\",\n            show=False,\n            is_list=True,\n            value={\"old_key\": \"new_key\"},\n        ),\n        MultilineInput(\n            name=\"mapped_json_display\",\n            display_name=\"JSON to Map\",\n            info=\"Paste or preview your JSON here to explore its structure and select a path for extraction.\",\n            required=False,\n            refresh_button=True,\n            real_time_refresh=True,\n            placeholder=\"Add a JSON example.\",\n            show=False,\n        ),\n        DropdownInput(\n            name=\"selected_key\", display_name=\"Select Path\", options=[], required=False, dynamic=True, show=False\n        ),\n        MessageTextInput(\n            name=\"query\",\n            display_name=\"JQ Expression\",\n            info=\"JSON Query to filter the data. Used by Parse JSON operation.\",\n            placeholder=\"e.g., .properties.id\",\n            show=False,\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Data\", name=\"data_output\", method=\"as_data\"),\n    ]\n\n    # Helper methods for data operations\n    def get_data_dict(self) -> dict:\n        \"\"\"Extract data dictionary from Data object.\"\"\"\n        data = self.data[0] if isinstance(self.data, list) and len(self.data) == 1 else self.data\n        return data.model_dump()\n\n    def json_query(self) -> Data:\n        import json\n\n        import jq\n\n        if not self.query or not self.query.strip():\n            msg = \"JSON Query is required and cannot be blank.\"\n            raise ValueError(msg)\n        raw_data = self.get_data_dict()\n        try:\n            input_str = json.dumps(raw_data)\n            repaired = repair_json(input_str)\n            data_json = json.loads(repaired)\n            jq_input = data_json[\"data\"] if isinstance(data_json, dict) and \"data\" in data_json else data_json\n            results = jq.compile(self.query).input(jq_input).all()\n            if not results:\n                msg = \"No result from JSON query.\"\n                raise ValueError(msg)\n            result = results[0] if len(results) == 1 else results\n            if result is None or result == \"None\":\n                msg = \"JSON query returned null/None. Check if the path exists in your data.\"\n                raise ValueError(msg)\n            if isinstance(result, dict):\n                return Data(data=result)\n            return Data(data={\"result\": result})\n        except (ValueError, TypeError, KeyError, json.JSONDecodeError) as e:\n            logger.error(f\"JSON Query failed: {e}\")\n            msg = f\"JSON Query error: {e}\"\n            raise ValueError(msg) from e\n\n    def get_normalized_data(self) -> dict:\n        \"\"\"Get normalized data dictionary, handling the 'data' key if present.\"\"\"\n        data_dict = self.get_data_dict()\n        return data_dict.get(\"data\", data_dict)\n\n    def data_is_list(self) -> bool:\n        \"\"\"Check if data contains multiple items.\"\"\"\n        return isinstance(self.data, list) and len(self.data) > 1\n\n    def validate_single_data(self, operation: str) -> None:\n        \"\"\"Validate that the operation is being performed on a single data object.\"\"\"\n        if self.data_is_list():\n            msg = f\"{operation} operation is not supported for multiple data objects.\"\n            raise ValueError(msg)\n\n    def operation_exception(self, operations: list[str]) -> None:\n        \"\"\"Raise exception for incompatible operations.\"\"\"\n        msg = f\"{operations} operations are not supported in combination with each other.\"\n        raise ValueError(msg)\n\n    # Data transformation operations\n    def select_keys(self, *, evaluate: bool | None = None) -> Data:\n        \"\"\"Select specific keys from the data dictionary.\"\"\"\n        self.validate_single_data(\"Select Keys\")\n        data_dict = self.get_normalized_data()\n        filter_criteria: list[str] = self.select_keys_input\n\n        # Filter the data\n        if len(filter_criteria) == 1 and filter_criteria[0] == \"data\":\n            filtered = data_dict[\"data\"]\n        else:\n            if not all(key in data_dict for key in filter_criteria):\n                msg = f\"Select key not found in data. Available keys: {list(data_dict.keys())}\"\n                raise ValueError(msg)\n            filtered = {key: value for key, value in data_dict.items() if key in filter_criteria}\n\n        # Create a new Data object with the filtered data\n        if evaluate:\n            filtered = self.recursive_eval(filtered)\n\n        # Return a new Data object with the filtered data directly in the data attribute\n        return Data(data=filtered)\n\n    def remove_keys(self) -> Data:\n        \"\"\"Remove specified keys from the data dictionary, recursively.\"\"\"\n        self.validate_single_data(\"Remove Keys\")\n        data_dict = self.get_normalized_data()\n        remove_keys_input: list[str] = self.remove_keys_input\n\n        filtered = DataOperationsComponent.remove_keys_recursive(data_dict, set(remove_keys_input))\n        return Data(data=filtered)\n\n    def rename_keys(self) -> Data:\n        \"\"\"Rename keys in the data dictionary, recursively.\"\"\"\n        self.validate_single_data(\"Rename Keys\")\n        data_dict = self.get_normalized_data()\n        rename_keys_input: dict[str, str] = self.rename_keys_input\n\n        renamed = DataOperationsComponent.rename_keys_recursive(data_dict, rename_keys_input)\n        return Data(data=renamed)\n\n    def recursive_eval(self, data: Any) -> Any:\n        \"\"\"Recursively evaluate string values in a dictionary or list.\n\n        If the value is a string that can be evaluated, it will be evaluated.\n        Otherwise, the original value is returned.\n        \"\"\"\n        if isinstance(data, dict):\n            return {k: self.recursive_eval(v) for k, v in data.items()}\n        if isinstance(data, list):\n            return [self.recursive_eval(item) for item in data]\n        if isinstance(data, str):\n            try:\n                # Only attempt to evaluate strings that look like Python literals\n                if (\n                    data.strip().startswith((\"{\", \"[\", \"(\", \"'\", '\"'))\n                    or data.strip().lower() in (\"true\", \"false\", \"none\")\n                    or data.strip().replace(\".\", \"\").isdigit()\n                ):\n                    return ast.literal_eval(data)\n                # return data\n            except (ValueError, SyntaxError, TypeError, MemoryError):\n                # If evaluation fails for any reason, return the original string\n                return data\n            else:\n                return data\n        return data\n\n    def evaluate_data(self) -> Data:\n        \"\"\"Evaluate string values in the data dictionary.\"\"\"\n        self.validate_single_data(\"Literal Eval\")\n        logger.info(\"evaluating data\")\n        return Data(**self.recursive_eval(self.get_data_dict()))\n\n    def combine_data(self, *, evaluate: bool | None = None) -> Data:\n        \"\"\"Combine multiple data objects into one.\"\"\"\n        logger.info(\"combining data\")\n        if not self.data_is_list():\n            return self.data[0] if self.data else Data(data={})\n\n        if len(self.data) == 1:\n            msg = \"Combine operation requires multiple data inputs.\"\n            raise ValueError(msg)\n\n        data_dicts = [data.model_dump().get(\"data\", data.model_dump()) for data in self.data]\n        combined_data = {}\n\n        for data_dict in data_dicts:\n            for key, value in data_dict.items():\n                if key not in combined_data:\n                    combined_data[key] = value\n                elif isinstance(combined_data[key], list):\n                    if isinstance(value, list):\n                        combined_data[key].extend(value)\n                    else:\n                        combined_data[key].append(value)\n                else:\n                    # If current value is not a list, convert it to list and add new value\n                    combined_data[key] = (\n                        [combined_data[key], value] if not isinstance(value, list) else [combined_data[key], *value]\n                    )\n\n        if evaluate:\n            combined_data = self.recursive_eval(combined_data)\n\n        return Data(**combined_data)\n\n    def filter_data(self, input_data: list[dict[str, Any]], filter_key: str, filter_value: str, operator: str) -> list:\n        \"\"\"Filter list data based on key, value, and operator.\"\"\"\n        # Validate inputs\n        if not input_data:\n            self.status = \"Input data is empty.\"\n            return []\n\n        if not filter_key or not filter_value:\n            self.status = \"Filter key or value is missing.\"\n            return input_data\n\n        # Filter the data\n        filtered_data = []\n        for item in input_data:\n            if isinstance(item, dict) and filter_key in item:\n                if self.compare_values(item[filter_key], filter_value, operator):\n                    filtered_data.append(item)\n            else:\n                self.status = f\"Warning: Some items don't have the key '{filter_key}' or are not dictionaries.\"\n\n        return filtered_data\n\n    def compare_values(self, item_value: Any, filter_value: str, operator: str) -> bool:\n        comparison_func = OPERATORS.get(operator)\n        if comparison_func:\n            return comparison_func(item_value, filter_value)\n        return False\n\n    def multi_filter_data(self) -> Data:\n        \"\"\"Apply multiple filters to the data.\"\"\"\n        self.validate_single_data(\"Filter Values\")\n        data_filtered = self.get_normalized_data()\n\n        for filter_key in self.filter_key:\n            if filter_key not in data_filtered:\n                msg = f\"Filter key '{filter_key}' not found in data. Available keys: {list(data_filtered.keys())}\"\n                raise ValueError(msg)\n\n            if isinstance(data_filtered[filter_key], list):\n                for filter_data in self.filter_values:\n                    filter_value = self.filter_values.get(filter_data)\n                    if filter_value is not None:\n                        data_filtered[filter_key] = self.filter_data(\n                            input_data=data_filtered[filter_key],\n                            filter_key=filter_data,\n                            filter_value=filter_value,\n                            operator=self.operator,\n                        )\n            else:\n                msg = f\"Filter key '{filter_key}' is not a list.\"\n                raise TypeError(msg)\n\n        return Data(**data_filtered)\n\n    def append_update(self) -> Data:\n        \"\"\"Append or Update with new key-value pairs.\"\"\"\n        self.validate_single_data(\"Append or Update\")\n        data_filtered = self.get_normalized_data()\n\n        for key, value in self.append_update_data.items():\n            data_filtered[key] = value\n\n        return Data(**data_filtered)\n\n    # Configuration and execution methods\n    def update_build_config(self, build_config: dotdict, field_value: Any, field_name: str | None = None) -> dotdict:\n        if field_name == \"operations\":\n            build_config[\"operations\"][\"value\"] = field_value\n            selected_actions = [action[\"name\"] for action in field_value]\n            if len(selected_actions) == 1 and selected_actions[0] in ACTION_CONFIG:\n                action = selected_actions[0]\n                config = ACTION_CONFIG[action]\n                build_config[\"data\"][\"is_list\"] = config[\"is_list\"]\n                logger.info(config[\"log_msg\"])\n                return set_current_fields(\n                    build_config=build_config,\n                    action_fields=self.actions_data,\n                    selected_action=action,\n                    default_fields=[\"operations\", \"data\"],\n                    func=set_field_display,\n                )\n\n        if field_name == \"mapped_json_display\":\n            try:\n                parsed_json = json.loads(field_value)\n                keys = DataOperationsComponent.extract_all_paths(parsed_json)\n                build_config[\"selected_key\"][\"options\"] = keys\n                build_config[\"selected_key\"][\"show\"] = True\n            except (json.JSONDecodeError, TypeError, ValueError) as e:\n                logger.error(f\"Error parsing mapped JSON: {e}\")\n                build_config[\"selected_key\"][\"show\"] = False\n\n        return build_config\n\n    def json_path(self) -> Data:\n        try:\n            if not self.data or not self.selected_key:\n                msg = \"Missing input data or selected key.\"\n                raise ValueError(msg)\n            input_payload = self.data[0].data if isinstance(self.data, list) else self.data.data\n            compiled = jq.compile(self.selected_key)\n            result = compiled.input(input_payload).first()\n            if isinstance(result, dict):\n                return Data(data=result)\n            return Data(data={\"result\": result})\n        except (ValueError, TypeError, KeyError) as e:\n            self.status = f\"Error: {e!s}\"\n            self.log(self.status)\n            return Data(data={\"error\": str(e)})\n\n    def as_data(self) -> Data:\n        if not hasattr(self, \"operations\") or not self.operations:\n            return Data(data={})\n\n        selected_actions = [action[\"name\"] for action in self.operations]\n        logger.info(f\"selected_actions: {selected_actions}\")\n        if len(selected_actions) != 1:\n            return Data(data={})\n\n        action_map: dict[str, Callable[[], Data]] = {\n            \"Select Keys\": self.select_keys,\n            \"Literal Eval\": self.evaluate_data,\n            \"Combine\": self.combine_data,\n            \"Filter Values\": self.multi_filter_data,\n            \"Append or Update\": self.append_update,\n            \"Remove Keys\": self.remove_keys,\n            \"Rename Keys\": self.rename_keys,\n            \"Path Selection\": self.json_path,\n            \"JQ Expression\": self.json_query,\n        }\n        handler: Callable[[], Data] | None = action_map.get(selected_actions[0])\n        if handler:\n            try:\n                return handler()\n            except Exception as e:\n                logger.error(f\"Error executing {selected_actions[0]}: {e!s}\")\n                raise\n        return Data(data={})\n"
-            },
-            "data": {
-              "_input_type": "DataInput",
-              "advanced": false,
-              "display_name": "Data",
-              "dynamic": false,
-              "info": "Data object to filter.",
-              "input_types": [
-                "Data"
-              ],
-              "list": true,
-              "list_add_label": "Add More",
-              "name": "data",
-              "override_skip": false,
-              "placeholder": "",
-              "required": true,
-              "show": true,
-              "title_case": false,
-              "tool_mode": false,
-              "trace_as_input": true,
-              "trace_as_metadata": true,
-              "track_in_telemetry": false,
-              "type": "other",
-              "value": ""
-            },
-            "filter_key": {
-              "_input_type": "MessageTextInput",
-              "advanced": false,
-              "display_name": "Filter Key",
-              "dynamic": false,
-              "info": "Name of the key containing the list to filter. It must be a top-level key in the JSON and its value must be a list.",
-              "input_types": [
-                "Message"
-              ],
-              "list": true,
-              "list_add_label": "Add More",
-              "load_from_db": false,
-              "name": "filter_key",
-              "override_skip": false,
-              "placeholder": "",
-              "required": false,
-              "show": false,
-              "title_case": false,
-              "tool_mode": false,
-              "trace_as_input": true,
-              "trace_as_metadata": true,
-              "track_in_telemetry": false,
-              "type": "str",
-              "value": ""
-            },
-            "filter_values": {
-              "_input_type": "DictInput",
-              "advanced": false,
-              "display_name": "Filter Values",
-              "dynamic": false,
-              "info": "List of values to filter by.",
-              "list": true,
-              "list_add_label": "Add More",
-              "name": "filter_values",
-              "override_skip": false,
-              "placeholder": "",
-              "required": false,
-              "show": false,
-              "title_case": false,
-              "tool_mode": false,
-              "trace_as_input": true,
-              "track_in_telemetry": false,
-              "type": "dict",
-              "value": {}
-            },
-            "mapped_json_display": {
-              "_input_type": "MultilineInput",
-              "advanced": false,
-              "ai_enabled": false,
-              "copy_field": false,
-              "display_name": "JSON to Map",
-              "dynamic": false,
-              "info": "Paste or preview your JSON here to explore its structure and select a path for extraction.",
-              "input_types": [
-                "Message"
-              ],
-              "list": false,
-              "list_add_label": "Add More",
-              "load_from_db": false,
-              "multiline": true,
-              "name": "mapped_json_display",
-              "override_skip": false,
-              "password": false,
-              "placeholder": "Add a JSON example.",
-              "real_time_refresh": true,
-              "refresh_button": true,
-              "required": false,
-              "show": false,
-              "title_case": false,
-              "tool_mode": false,
-              "trace_as_input": true,
-              "trace_as_metadata": true,
-              "track_in_telemetry": false,
-              "type": "str",
-              "value": ""
-            },
-            "operations": {
-              "_input_type": "SortableListInput",
-              "advanced": false,
-              "display_name": "Operations",
-              "dynamic": false,
-              "info": "List of operations to perform on the data.",
-              "limit": 1,
-              "name": "operations",
-              "options": [
-                {
-                  "icon": "lasso-select",
-                  "name": "Select Keys"
-                },
-                {
-                  "icon": "braces",
-                  "name": "Literal Eval"
-                },
-                {
-                  "icon": "merge",
-                  "name": "Combine"
-                },
-                {
-                  "icon": "filter",
-                  "name": "Filter Values"
-                },
-                {
-                  "icon": "circle-plus",
-                  "name": "Append or Update"
-                },
-                {
-                  "icon": "eraser",
-                  "name": "Remove Keys"
-                },
-                {
-                  "icon": "pencil-line",
-                  "name": "Rename Keys"
-                },
-                {
-                  "icon": "mouse-pointer",
-                  "name": "Path Selection"
-                },
-                {
-                  "icon": "terminal",
-                  "name": "JQ Expression"
-                }
-              ],
-              "override_skip": false,
-              "placeholder": "Select Operation",
-              "real_time_refresh": true,
-              "required": false,
-              "search_category": [],
-              "show": true,
-              "title_case": false,
-              "tool_mode": false,
-              "trace_as_metadata": true,
-              "track_in_telemetry": false,
-              "type": "sortableList",
-              "value": ""
-            },
-            "operator": {
-              "_input_type": "DropdownInput",
-              "advanced": false,
-              "combobox": false,
-              "dialog_inputs": {},
-              "display_name": "Comparison Operator",
-              "dynamic": false,
-              "external_options": {},
-              "info": "The operator to apply for comparing the values.",
-              "name": "operator",
-              "options": [
-                "equals",
-                "not equals",
-                "contains",
-                "starts with",
-                "ends with"
-              ],
-              "options_metadata": [],
-              "override_skip": false,
-              "placeholder": "",
-              "required": false,
-              "show": false,
-              "title_case": false,
-              "toggle": false,
-              "tool_mode": false,
-              "trace_as_metadata": true,
-              "track_in_telemetry": true,
-              "type": "str",
-              "value": "equals"
-            },
-            "query": {
-              "_input_type": "MessageTextInput",
-              "advanced": false,
-              "display_name": "JQ Expression",
-              "dynamic": false,
-              "info": "JSON Query to filter the data. Used by Parse JSON operation.",
-              "input_types": [
-                "Message"
-              ],
-              "list": false,
-              "list_add_label": "Add More",
-              "load_from_db": false,
-              "name": "query",
-              "override_skip": false,
-              "placeholder": "e.g., .properties.id",
-              "required": false,
-              "show": false,
-              "title_case": false,
-              "tool_mode": false,
-              "trace_as_input": true,
-              "trace_as_metadata": true,
-              "track_in_telemetry": false,
-              "type": "str",
-              "value": ""
-            },
-            "remove_keys_input": {
-              "_input_type": "MessageTextInput",
-              "advanced": false,
-              "display_name": "Remove Keys",
-              "dynamic": false,
-              "info": "List of keys to remove from the data.",
-              "input_types": [
-                "Message"
-              ],
-              "list": true,
-              "list_add_label": "Add More",
-              "load_from_db": false,
-              "name": "remove_keys_input",
-              "override_skip": false,
-              "placeholder": "",
-              "required": false,
-              "show": false,
-              "title_case": false,
-              "tool_mode": false,
-              "trace_as_input": true,
-              "trace_as_metadata": true,
-              "track_in_telemetry": false,
-              "type": "str",
-              "value": ""
-            },
-            "rename_keys_input": {
-              "_input_type": "DictInput",
-              "advanced": false,
-              "display_name": "Rename Keys",
-              "dynamic": false,
-              "info": "List of keys to rename in the data.",
-              "list": true,
-              "list_add_label": "Add More",
-              "name": "rename_keys_input",
-              "override_skip": false,
-              "placeholder": "",
-              "required": false,
-              "show": false,
-              "title_case": false,
-              "tool_mode": false,
-              "trace_as_input": true,
-              "track_in_telemetry": false,
-              "type": "dict",
-              "value": {
-                "old_key": "new_key"
-              }
-            },
-            "select_keys_input": {
-              "_input_type": "MessageTextInput",
-              "advanced": false,
-              "display_name": "Select Keys",
-              "dynamic": false,
-              "info": "List of keys to select from the data. Only top-level keys can be selected.",
-              "input_types": [
-                "Message"
-              ],
-              "list": true,
-              "list_add_label": "Add More",
-              "load_from_db": false,
-              "name": "select_keys_input",
-              "override_skip": false,
-              "placeholder": "",
-              "required": false,
-              "show": false,
-              "title_case": false,
-              "tool_mode": false,
-              "trace_as_input": true,
-              "trace_as_metadata": true,
-              "track_in_telemetry": false,
-              "type": "str",
-              "value": ""
-            },
-            "selected_key": {
-              "_input_type": "DropdownInput",
-              "advanced": false,
-              "combobox": false,
-              "dialog_inputs": {},
-              "display_name": "Select Path",
-              "dynamic": true,
-              "external_options": {},
-              "info": "",
-              "name": "selected_key",
-              "options": [],
-              "options_metadata": [],
-              "override_skip": false,
-              "placeholder": "",
-              "required": false,
-              "show": false,
-              "title_case": false,
-              "toggle": false,
-              "tool_mode": false,
-              "trace_as_metadata": true,
-              "track_in_telemetry": true,
-              "type": "str",
-              "value": ""
-            }
-          },
-          "tool_mode": false
-        },
         "DataToDataFrame": {
           "base_classes": [
             "DataFrame"
@@ -100598,138 +100944,6 @@
               "track_in_telemetry": false,
               "type": "str",
               "value": "{text}"
-            }
-          },
-          "tool_mode": false
-        },
-        "ParseJSONData": {
-          "base_classes": [
-            "Data"
-          ],
-          "beta": false,
-          "conditional_paths": [],
-          "custom_fields": {},
-          "description": "Convert and extract JSON fields.",
-          "display_name": "Parse JSON",
-          "documentation": "",
-          "edited": false,
-          "field_order": [
-            "input_value",
-            "query"
-          ],
-          "frozen": false,
-          "icon": "braces",
-          "legacy": true,
-          "metadata": {
-            "code_hash": "5268ca4c42d6",
-            "dependencies": {
-              "dependencies": [
-                {
-                  "name": "jq",
-                  "version": "1.11.0"
-                },
-                {
-                  "name": "json_repair",
-                  "version": "0.30.3"
-                },
-                {
-                  "name": "lfx",
-                  "version": null
-                }
-              ],
-              "total_dependencies": 3
-            },
-            "module": "lfx.components.processing.parse_json_data.ParseJSONDataComponent"
-          },
-          "minimized": false,
-          "output_types": [],
-          "outputs": [
-            {
-              "allows_loop": false,
-              "cache": true,
-              "display_name": "Filtered Data",
-              "group_outputs": false,
-              "method": "filter_data",
-              "name": "filtered_data",
-              "selected": "Data",
-              "tool_mode": true,
-              "types": [
-                "Data"
-              ],
-              "value": "__UNDEFINED__"
-            }
-          ],
-          "pinned": false,
-          "replacement": [
-            "processing.ParserComponent"
-          ],
-          "template": {
-            "_type": "Component",
-            "code": {
-              "advanced": true,
-              "dynamic": true,
-              "fileTypes": [],
-              "file_path": "",
-              "info": "",
-              "list": false,
-              "load_from_db": false,
-              "multiline": true,
-              "name": "code",
-              "password": false,
-              "placeholder": "",
-              "required": true,
-              "show": true,
-              "title_case": false,
-              "type": "code",
-              "value": "import json\nfrom json import JSONDecodeError\n\nimport jq\nfrom json_repair import repair_json\n\nfrom lfx.custom.custom_component.component import Component\nfrom lfx.inputs.inputs import HandleInput, MessageTextInput\nfrom lfx.io import Output\nfrom lfx.log.logger import logger\nfrom lfx.schema.data import Data\nfrom lfx.schema.message import Message\n\n\nclass ParseJSONDataComponent(Component):\n    display_name = \"Parse JSON\"\n    description = \"Convert and extract JSON fields.\"\n    icon = \"braces\"\n    name = \"ParseJSONData\"\n    legacy: bool = True\n    replacement = [\"processing.ParserComponent\"]\n\n    inputs = [\n        HandleInput(\n            name=\"input_value\",\n            display_name=\"Input\",\n            info=\"Data object to filter.\",\n            required=True,\n            input_types=[\"Message\", \"Data\"],\n        ),\n        MessageTextInput(\n            name=\"query\",\n            display_name=\"JQ Query\",\n            info=\"JQ Query to filter the data. The input is always a JSON list.\",\n            required=True,\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"Filtered Data\", name=\"filtered_data\", method=\"filter_data\"),\n    ]\n\n    def _parse_data(self, input_value) -> str:\n        if isinstance(input_value, Message) and isinstance(input_value.text, str):\n            return input_value.text\n        if isinstance(input_value, Data):\n            return json.dumps(input_value.data)\n        return str(input_value)\n\n    def filter_data(self) -> list[Data]:\n        to_filter = self.input_value\n        if not to_filter:\n            return []\n        # Check if input is a list\n        if isinstance(to_filter, list):\n            to_filter = [self._parse_data(f) for f in to_filter]\n        else:\n            to_filter = self._parse_data(to_filter)\n\n        # If input is not a list, don't wrap it in a list\n        if not isinstance(to_filter, list):\n            to_filter = repair_json(to_filter)\n            try:\n                to_filter_as_dict = json.loads(to_filter)\n            except JSONDecodeError:\n                try:\n                    to_filter_as_dict = json.loads(repair_json(to_filter))\n                except JSONDecodeError as e:\n                    msg = f\"Invalid JSON: {e}\"\n                    raise ValueError(msg) from e\n        else:\n            to_filter = [repair_json(f) for f in to_filter]\n            to_filter_as_dict = []\n            for f in to_filter:\n                try:\n                    to_filter_as_dict.append(json.loads(f))\n                except JSONDecodeError:\n                    try:\n                        to_filter_as_dict.append(json.loads(repair_json(f)))\n                    except JSONDecodeError as e:\n                        msg = f\"Invalid JSON: {e}\"\n                        raise ValueError(msg) from e\n            to_filter = to_filter_as_dict\n\n        full_filter_str = json.dumps(to_filter_as_dict)\n\n        logger.info(\"to_filter: %s\", to_filter)\n\n        results = jq.compile(self.query).input_text(full_filter_str).all()\n        logger.info(\"results: %s\", results)\n        return [Data(data=value) if isinstance(value, dict) else Data(text=str(value)) for value in results]\n"
-            },
-            "input_value": {
-              "_input_type": "HandleInput",
-              "advanced": false,
-              "display_name": "Input",
-              "dynamic": false,
-              "info": "Data object to filter.",
-              "input_types": [
-                "Message",
-                "Data"
-              ],
-              "list": false,
-              "list_add_label": "Add More",
-              "name": "input_value",
-              "override_skip": false,
-              "placeholder": "",
-              "required": true,
-              "show": true,
-              "title_case": false,
-              "trace_as_metadata": true,
-              "track_in_telemetry": false,
-              "type": "other",
-              "value": ""
-            },
-            "query": {
-              "_input_type": "MessageTextInput",
-              "advanced": false,
-              "display_name": "JQ Query",
-              "dynamic": false,
-              "info": "JQ Query to filter the data. The input is always a JSON list.",
-              "input_types": [
-                "Message"
-              ],
-              "list": false,
-              "list_add_label": "Add More",
-              "load_from_db": false,
-              "name": "query",
-              "override_skip": false,
-              "placeholder": "",
-              "required": true,
-              "show": true,
-              "title_case": false,
-              "tool_mode": false,
-              "trace_as_input": true,
-              "trace_as_metadata": true,
-              "track_in_telemetry": false,
-              "type": "str",
-              "value": ""
             }
           },
           "tool_mode": false
@@ -111727,7 +111941,7 @@
                 },
                 {
                   "name": "google",
-                  "version": "1.16.0"
+                  "version": "1.72.0"
                 }
               ],
               "total_dependencies": 3
@@ -112111,7 +112325,7 @@
                 },
                 {
                   "name": "google",
-                  "version": "1.16.0"
+                  "version": "1.72.0"
                 }
               ],
               "total_dependencies": 3
@@ -116366,9 +116580,9 @@
     ]
   ],
   "metadata": {
-    "num_components": 356,
-    "num_modules": 95
+    "num_components": 355,
+    "num_modules": 96
   },
-  "sha256": "17315e53c4cc008218504292806c596a2cab9b595531a4a562c17ffb084af07a",
+  "sha256": "2ba1748085bbee6187375216f6c3f053dcaed0f6004c50e38e54cf7a3c9e87f6",
   "version": "0.3.0"
 }
